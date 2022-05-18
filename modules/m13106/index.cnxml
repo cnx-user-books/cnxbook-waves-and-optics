@@ -1,0 +1,846 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Convolution Theorem and Diffraction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>320b8bf3-0f0c-455c-8fcf-1b663bf4141d</md:uuid>
+</metadata>
+  <content>
+<para id="id43280045">
+   To handle more complex cases of diffraction using Fourier transforms we need
+   to know the convolution theorem. Say
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>g</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mi>x</m:mi>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>is
+   the convolution of two other functions
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>h</m:mi>
+     </m:mrow>
+   </m:math>.
+   Then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>g</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>x</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo form="infix">⊗</m:mo>
+         <m:mi>h</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msubsup>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mi>∞</m:mi>
+           </m:mrow>
+           <m:mi>∞</m:mi>
+         </m:msubsup>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>f</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:msup>
+                 <m:mi>x</m:mi>
+                 <m:mo form="postfix">′</m:mo>
+               </m:msup>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>h</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:msup>
+                   <m:mi>x</m:mi>
+                   <m:mo form="postfix">′</m:mo>
+                 </m:msup>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mo form="postfix">′</m:mo>
+             </m:msup>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>It
+   is probably best to illustrate convolution with some examples.  In each
+   example, the blue line represents the function
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>h</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mi>x</m:mi>
+           <m:mo form="infix">−</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mo form="postfix">′</m:mo>
+           </m:msup>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>,
+   the red line the function
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mi>x</m:mi>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and the green line is the convolution. In the animation; follow the vertical
+   green line that is the point where the convolution is being evaluated.  Its
+   value is the area under the product of the two curves at that point.
+   
+
+   <figure id="id43198274"><media id="idp5098704" alt=""><image src="../../media/TwoRectAni.gif" mime-type="image/gif"/></media></figure>
+
+</para>
+<para id="id43235710">
+   
+</para>
+<para id="id43280191">
+   It might be easier to picture what is going on if we capture a couple of
+   frames.
+</para>
+<para id="id43280196">
+   
+
+   <figure id="id43211717"><media id="idp5619536" alt=""><image src="../../media/index_21.gif" mime-type="image/gif"/></media></figure>
+
+
+
+   <figure id="id43250574"><media id="idp8750912" alt=""><image src="../../media/index_25.gif" mime-type="image/gif"/></media></figure>
+
+  Here
+   is a slightly more complicated example
+</para>
+<para id="id43283628">
+   
+
+   <figure id="id43280505"><media id="idm1343104" alt=""><image src="../../media/AniGaussRect.gif" mime-type="image/gif"/></media></figure>
+
+Finally
+   it is interesting to note what happens when we spread out a few functions,
+   that is in this case,
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+     </m:mrow>
+   </m:math>
+   is a step function in a couple of
+   places.
+
+   <figure id="id7678649"><media id="idp6423328" alt=""><image src="../../media/AniGaussTwoRect.gif" mime-type="image/gif"/></media></figure>
+
+</para>
+<para id="id7678659">
+   The convolution theorem states that if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>G</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>k</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>Ϝ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">{</m:mo>
+           <m:mrow>
+             <m:mi>g</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>x</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">}</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>F</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>k</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>Ϝ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">{</m:mo>
+           <m:mrow>
+             <m:mi>f</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>x</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">}</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>H</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>k</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>Ϝ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">{</m:mo>
+           <m:mrow>
+             <m:mi>h</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>x</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">}</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   if<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>g</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>x</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo form="infix">⊗</m:mo>
+         <m:mi>h</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   then<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>G</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mi>k</m:mi>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>F</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>k</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>H</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>k</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   We can easily show this
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>G</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mi>k</m:mi>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>∞</m:mi>
+                     </m:mrow>
+                     <m:mi>∞</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>g</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:msup>
+                           <m:mi>x</m:mi>
+                           <m:mo form="postfix">′</m:mo>
+                         </m:msup>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>e</m:mi>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>k</m:mi>
+                         <m:mo/>
+                         <m:msup>
+                           <m:mi>x</m:mi>
+                           <m:mo form="postfix">′</m:mo>
+                         </m:msup>
+                       </m:mrow>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:msup>
+                         <m:mi>x</m:mi>
+                         <m:mo form="postfix">′</m:mo>
+                       </m:msup>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msubsup>
+                   <m:mo form="prefix" largeop="true">∫</m:mo>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>∞</m:mi>
+                   </m:mrow>
+                   <m:mi>∞</m:mi>
+                 </m:msubsup>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:msup>
+                         <m:mi>x</m:mi>
+                         <m:mo form="postfix">′</m:mo>
+                       </m:msup>
+                     </m:mrow>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:msubsup>
+                         <m:mo form="prefix" largeop="true">∫</m:mo>
+                         <m:mrow>
+                           <m:mo form="prefix">−</m:mo>
+                           <m:mi>∞</m:mi>
+                         </m:mrow>
+                         <m:mi>∞</m:mi>
+                       </m:msubsup>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>f</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mi>x</m:mi>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi>h</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mrow>
+                               <m:msup>
+                                 <m:mi>x</m:mi>
+                                 <m:mo form="postfix">′</m:mo>
+                               </m:msup>
+                               <m:mo form="infix">−</m:mo>
+                               <m:mi>x</m:mi>
+                             </m:mrow>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mo form="prefix">ⅆ</m:mo>
+                           <m:mi>x</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:msup>
+                         <m:mi>x</m:mi>
+                         <m:mo form="postfix">′</m:mo>
+                       </m:msup>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msubsup>
+                   <m:mo form="prefix" largeop="true">∫</m:mo>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>∞</m:mi>
+                   </m:mrow>
+                   <m:mi>∞</m:mi>
+                 </m:msubsup>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:msubsup>
+                       <m:mo form="prefix" largeop="true">∫</m:mo>
+                       <m:mrow>
+                         <m:mo form="prefix">−</m:mo>
+                         <m:mi>∞</m:mi>
+                       </m:mrow>
+                       <m:mi>∞</m:mi>
+                     </m:msubsup>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>h</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                           <m:mrow>
+                             <m:msup>
+                               <m:mi>x</m:mi>
+                               <m:mo form="postfix">′</m:mo>
+                             </m:msup>
+                             <m:mo form="infix">−</m:mo>
+                             <m:mi>x</m:mi>
+                           </m:mrow>
+                           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:msup>
+                         <m:mi>e</m:mi>
+                         <m:mrow>
+                           <m:mi>i</m:mi>
+                           <m:mo/>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:msup>
+                             <m:mi>x</m:mi>
+                             <m:mo form="postfix">′</m:mo>
+                           </m:msup>
+                         </m:mrow>
+                       </m:msup>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:msup>
+                           <m:mi>x</m:mi>
+                           <m:mo form="postfix">′</m:mo>
+                         </m:msup>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>f</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mi>x</m:mi>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   now set
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>w</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mi>x</m:mi>
+           <m:mo form="postfix">′</m:mo>
+         </m:msup>
+         <m:mo form="infix">−</m:mo>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   then
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>x</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>w</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>G</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mi>k</m:mi>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>∞</m:mi>
+                     </m:mrow>
+                     <m:mi>∞</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:msubsup>
+                         <m:mo form="prefix" largeop="true">∫</m:mo>
+                         <m:mrow>
+                           <m:mo form="prefix">−</m:mo>
+                           <m:mi>∞</m:mi>
+                         </m:mrow>
+                         <m:mi>∞</m:mi>
+                       </m:msubsup>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>h</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mi>w</m:mi>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:msup>
+                           <m:mi>e</m:mi>
+                           <m:mrow>
+                             <m:mi>i</m:mi>
+                             <m:mo/>
+                             <m:mi>k</m:mi>
+                             <m:mo/>
+                             <m:mi>w</m:mi>
+                           </m:mrow>
+                         </m:msup>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mo form="prefix">ⅆ</m:mo>
+                           <m:mi>w</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:msup>
+                         <m:mi>e</m:mi>
+                         <m:mrow>
+                           <m:mi>i</m:mi>
+                           <m:mo/>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>x</m:mi>
+                         </m:mrow>
+                       </m:msup>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:mi>x</m:mi>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>∞</m:mi>
+                     </m:mrow>
+                     <m:mi>∞</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>h</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mi>w</m:mi>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>e</m:mi>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>k</m:mi>
+                         <m:mo/>
+                         <m:mi>w</m:mi>
+                       </m:mrow>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>w</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>∞</m:mi>
+                     </m:mrow>
+                     <m:mi>∞</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>f</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mi>x</m:mi>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>e</m:mi>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>k</m:mi>
+                         <m:mo/>
+                         <m:mi>x</m:mi>
+                       </m:mrow>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>H</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mi>k</m:mi>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mi>F</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mi>k</m:mi>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id43177176">
+   Now say we want to consider the case of two long slits with width
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>a</m:mi>
+     </m:mrow>
+   </m:math>.
+   This can be described by the convolution of one slit with two delta functions.
+   Unfortunately it is not possible to animate this since the delta function is
+   infinitely narrow. However an extremely narrow Gaussian is a good
+   approximation to the Dirac delta function and I have used that for the
+   animation
+   below.
+
+   <figure id="id43177205"><media id="idp6987136" alt=""><image src="../../media/AniTwoApertures.gif" mime-type="image/gif"/></media></figure>
+
+So
+   two slits of a finite width can be described by the convolution of two delta
+   functions and rectangular aperture function. Then the Fraunhofer diffraction
+   pattern is just the product of the two Fourier transforms.
+</para>
+<para id="id43177219">
+   To sumarize: Fraunhofer diffraction patterns are the Fourier transform of the
+   aperture function.  The Fourier transform of the convolution of functions is
+   the product of the Fourier transforms of the individual functions. each of our
+   complex diffraction cases could be considered the convolution of simpler
+   cases, hence the resulting patterns were the products of those simpler cases.
+</para>
+<para id="id43259706">
+   
+</para>
+<para id="id43259716">
+   
+</para>
+</content>
+</document>

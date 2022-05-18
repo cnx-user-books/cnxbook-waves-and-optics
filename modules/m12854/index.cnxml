@@ -1,0 +1,25 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Scalar.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c4adbc80-3b25-4742-be4d-599dc321218e</md:uuid>
+</metadata>
+  <content>
+<section id="id8777896">
+<title>Scalar Fields</title>
+<para id="id8777904">
+   One of the more difficult concepts we encounter in physics is the notion of a
+   field.  However it is an extremely useful concept. A scalar field is a map
+   over some space of scalar values.  That is it is a map of values with no
+   direction.  A simple example of a scalar field is a map of the temperature
+   distribution in a room.  In this course the most important example is the
+   electromagnetic potential field. Below are a few examples of graphical
+   representations of one particular scalar field.
+</para>
+<para id="id8777917">
+   
+
+   <figure id="id8777925"><media id="idp1703504" alt=""><image src="../../media/Sample_Scalar_Field_4.gif" mime-type="image/gif"/></media></figure>
+
+</para>
+</section>
+</content>
+</document>

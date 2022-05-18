@@ -1,0 +1,640 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 4.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ed3be111-78e1-47d3-a018-65533f2277cc</md:uuid>
+</metadata>
+  <content>
+<section id="id6732944">
+<title>Energy in SHO</title>
+<para id="id6740164">
+   Recall that the total energy of a system is:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>K</m:mi>
+           <m:mo/>
+           <m:mi>E</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>P</m:mi>
+           <m:mo/>
+           <m:mi>E</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>K</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>U</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>We
+   also know that the kinetic energy is
+</para>
+<para id="id3114130">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>K</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>m</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mtext mathcolor="black">v</m:mtext>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>But
+   what is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>U</m:mi>
+     </m:mrow>
+   </m:math>?
+   For a conservative Force
+   (<m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mover accent="true">
+             <m:mi>F</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mo/>
+           <m:mi>d</m:mi>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>x</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>)
+   - eg. gravity, electrical... (no friction) we know that the work done by an
+   external force is stored as
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>U</m:mi>
+     </m:mrow>
+   </m:math>.
+   For the case of a mass on a spring, the external force is opposite the spring
+   Force (That is it has the opposite sign from the spring force).:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>F</m:mi>
+         <m:mrow>
+           <m:mi>e</m:mi>
+           <m:mo/>
+           <m:mi>x</m:mi>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>(i.e.
+   This is the force you use to pull the mass and stretch the spring before
+   letting go and making it oscillate.)
+</para>
+<para id="id7910940">
+   Thus
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>U</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msubsup>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mn>0</m:mn>
+           <m:mi>x</m:mi>
+         </m:msubsup>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>x</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>x</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>This
+   gives:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>E</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mn>1</m:mn>
+                       <m:mn>2</m:mn>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mi>m</m:mi>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mtext mathcolor="black">v</m:mtext>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mn>1</m:mn>
+                       <m:mn>2</m:mn>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>x</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mn>1</m:mn>
+                     <m:mn>2</m:mn>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                       <m:mfrac>
+                         <m:mrow>
+                           <m:mo form="prefix">ⅆ</m:mo>
+                           <m:mi>x</m:mi>
+                         </m:mrow>
+                         <m:mrow>
+                           <m:mo form="prefix">ⅆ</m:mo>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mfrac>
+                       <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mn>1</m:mn>
+                     <m:mn>2</m:mn>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>x</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   It is important to realize that any system that is represented by
+   either of these two equations below represents oscillating system
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:msup>
+                 <m:mo form="prefix">ⅆ</m:mo>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:msup>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mfrac>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mi>E</m:mi>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id7297426">
+   To calculate the energy in the system it is helpful to take advantage of the
+   fact that we can calculate the energy at any point in x.  For example in the
+   case of the simple harmonic oscillator we have
+   that:<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>α</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>We
+   can choose
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>t</m:mi>
+     </m:mrow>
+   </m:math>
+   such
+   that<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   Now remember that when I write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>α</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>I
+   "really" (pun intended) mean
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mi>e</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mi>A</m:mi>
+             <m:mo/>
+             <m:msup>
+               <m:mi>e</m:mi>
+               <m:mrow>
+                 <m:mi>i</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mi>α</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+             </m:msup>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Likewise
+   then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˙</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mi>e</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mi>ω</m:mi>
+             <m:mo/>
+             <m:mi>A</m:mi>
+             <m:mo/>
+             <m:msup>
+               <m:mi>e</m:mi>
+               <m:mrow>
+                 <m:mi>i</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mi>α</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+             </m:msup>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id7596579">
+   At the point in time where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   this gives us
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˙</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mi>e</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mi>ω</m:mi>
+             <m:mo/>
+             <m:mi>A</m:mi>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>Thus
+   at that point in time we have
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˙</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>.
+   We can now substitute that and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   into
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mfrac>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   we obtain
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>A</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   This is an important point. The energy in the
+   oscillator is proportional to the amplitude squared!
+</para>
+</section>
+</content>
+</document>

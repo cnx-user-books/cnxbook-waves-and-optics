@@ -1,0 +1,247 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Eyeglasses</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>844bd36e-c64b-429e-9e08-bc8e208e3ef3</md:uuid>
+</metadata>
+  <content>
+<para id="id30752482">
+   First a little nomenclature. Optometrists (and opthamologists) use the
+   dioptric power measured in diopters. A diopter is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mn>1</m:mn>
+       <m:mo form="infix">/</m:mo>
+       <m:mi>f</m:mi>
+     </m:mrow>
+   </m:math>
+   where f is measured in meters. The focal length of lenses in contact is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or using dioptric power
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>D</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>D</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo form="infix">+</m:mo>
+         <m:msub>
+           <m:mi>D</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   A "normal" eye will focus an object at infinity onto the retina with
+   the lens relaxed. As objects come closer the lens of the eye is made to bulge
+   to keep the object in focus. A nearsighted person (such as certain
+   Phys 201 prof's) has an eye that focuses the object at infinity in front of
+   the retina. This person has a far point beyond which things are focused
+   incorrectly. By using a lens that casts the object at infinity onto the far
+   point this problem can be corrected. Say someone's far point is at 2m. In this
+   case we want
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mi>∞</m:mi>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   a corrective lens with
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>m</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>D</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix">−</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Diopters.
+   Notice that the desired focal length is the far point (with the correct choice
+   of sign)Of course in practice we need to take into account the
+   distance between the glasses and the eye, but the above is valid for a contact
+   lens. In the case of eyeglasses you need to subtract off the distance
+   between the lense and the eye. For example if the distance between the eye and
+   the glasses is 2cm then the above
+   becomes<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mi>∞</m:mi>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>1.98</m:mn>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id35014065">
+   
+</para>
+<para id="id15976259">
+   A far sighted person focuses objects at infinity behind the retina. Their eye
+   can accommodate the object at infinity but they have trouble with nearby
+   points. A normal eye should be able to focus objects as close as 25cm. A far
+   sighted person can focus to a near point that is greater than 25cm and so we
+   need to take the 25cm point and make it look like it is at the near point. Say
+   some one has a near point of 125cm then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>1.25</m:mn>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>.25</m:mn>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   which is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">+</m:mo>
+       <m:mn>3.2</m:mn>
+     </m:mrow>
+   </m:math>Diopters.   Of
+   course again we should correct for the distance between the glasses and the
+   eye, which if that is 2cm makes the
+   equation:<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>1.23</m:mn>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>.23</m:mn>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Finally their are old guys like me who need bifocals.  As one ages, the eye
+   lens becomes more rigid and it is harder and harder for it to deform and focus
+   on close in objects.  Then if you are also nearsighted, then you have to
+   resort to bifocals.
+</para>
+</content>
+</document>

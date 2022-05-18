@@ -1,0 +1,432 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 25.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1070e9c4-0268-4f46-97fa-d48d89fe4440</md:uuid>
+</metadata>
+  <content>
+<section id="id14187766">
+<title>Energy Density</title>
+<para id="id15057950">
+   The electric and magnetic fields have energy and hence have an energy density.
+   We can see this for a capacitor:The energy stored in a capacitor is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>U</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>C</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>V</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>C</m:mi>
+     </m:mrow>
+   </m:math>
+   is the capacitance and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>V</m:mi>
+     </m:mrow>
+   </m:math>
+   the potential drop (voltage) across the capacitor. For a parallel plate
+   capacitor
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>C</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mi>A</m:mi>
+         </m:mrow>
+         <m:mi>d</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>V</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>E</m:mi>
+         <m:mo/>
+         <m:mi>d</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   is the area of the plates
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   the distance between them and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>E</m:mi>
+     </m:mrow>
+   </m:math>
+   the electric field strength.note that
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>A</m:mi>
+       <m:mo/>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   is the volumeThus
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>U</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>ε</m:mi>
+               <m:mn>0</m:mn>
+             </m:msub>
+             <m:mo/>
+             <m:mi>A</m:mi>
+           </m:mrow>
+           <m:mi>d</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mi>E</m:mi>
+               <m:mo/>
+               <m:mi>d</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:msub>
+           <m:mi>ε</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mi>d</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>E</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   So we can write the energy density (Energy per Unit volume) of the field as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>u</m:mi>
+         <m:mi>E</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>U</m:mi>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mi>d</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:msub>
+           <m:mi>ε</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>E</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Likewise by calculating the energy stored by a B-field in a current
+   carrying solenoid one can derive:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>u</m:mi>
+         <m:mi>B</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:msup>
+           <m:mi>B</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:msub>
+             <m:mi>μ</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   Since we know
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>c</m:mi>
+         <m:mo/>
+         <m:mi>B</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>u</m:mi>
+                   <m:mi>E</m:mi>
+                 </m:msub>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mn>1</m:mn>
+                     <m:mn>2</m:mn>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mn>0</m:mn>
+                   </m:msub>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>E</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>ε</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>c</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>B</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>ε</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mrow>
+                     <m:msub>
+                       <m:mi>ε</m:mi>
+                       <m:mn>0</m:mn>
+                     </m:msub>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>μ</m:mi>
+                       <m:mn>0</m:mn>
+                     </m:msub>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>B</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:msub>
+                     <m:mi>μ</m:mi>
+                     <m:mn>0</m:mn>
+                   </m:msub>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>B</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:msub>
+                 <m:mi>u</m:mi>
+                 <m:mi>B</m:mi>
+               </m:msub>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   In an EM wave
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>u</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>u</m:mi>
+           <m:mi>E</m:mi>
+         </m:msub>
+         <m:mo form="infix">+</m:mo>
+         <m:msub>
+           <m:mi>u</m:mi>
+           <m:mi>B</m:mi>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   which is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>u</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>ε</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>E</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or equivalently
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>u</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mi>B</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo form="infix">/</m:mo>
+         <m:msub>
+           <m:mi>μ</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

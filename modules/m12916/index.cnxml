@@ -1,0 +1,641 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>DoubleSlitDiffraction.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>eeadf770-61e4-41f3-a14d-61b07c6a0d21</md:uuid>
+</metadata>
+  <content>
+<section id="id21766567">
+<title>Two Slit Diffraction</title>
+<para id="id21392284">
+   Now we consider the case of two slit
+   diffraction.
+
+   <figure id="id16611756"><media id="idp870896" alt=""><image src="../../media/double-slit.png" mime-type="image/png"/></media></figure>
+
+Notice
+   that the x axis has been drawn through the lower slit. Then the field at the
+   distant point is just the sum of the field from the two slits. Thus we can use
+   our solution to single slit diffraction for each slit and add them
+   together<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:msub>
+               <m:mi>R</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>R</m:mi>
+                       <m:mn>1</m:mn>
+                     </m:msub>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:msub>
+               <m:mi>R</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>R</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msub>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21242734">
+   Now we we will define
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>R</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   and use
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mi>d</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mi>θ</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:mi>R</m:mi>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>R</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mi>R</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>d</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mrow>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>R</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>d</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Now we can ignore the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:mi>θ</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   in the denominator, as it will not have a significant effect on that. However
+   in the exponent, we can not ignore it, since it could significantly affect the
+   phase of the harmonic function.  Lets define
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>α</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>d</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mi>θ</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   so now we can write:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:mi>R</m:mi>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>R</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>ε</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mi>a</m:mi>
+             </m:mrow>
+             <m:mi>R</m:mi>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>c</m:mi>
+           <m:mo/>
+           <m:mi>β</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>R</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>α</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and start rearranging:
+   <m:math mode="display" display="block">
+   </m:math><m:math mode="display" display="block">
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>ε</m:mi>
+               <m:mi>L</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mi>a</m:mi>
+           </m:mrow>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>s</m:mi>
+         <m:mo/>
+         <m:mi>i</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>c</m:mi>
+         <m:mo/>
+         <m:mi>β</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mi>α</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mi>α</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   This is very similar to the case of single slit diffraction except that you
+   now get a factor
+   <m:math display="inline">
+     <m:mrow>
+       <m:mn>2</m:mn>
+       <m:mo/>
+       <m:mrow>
+         <m:mi mathcolor="gray">cos</m:mi>
+         <m:mo/>
+         <m:mi>α</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   included and a phase shift in the harmonic function.
+</para>
+<para id="id21095187">
+   So we can see immediately the intensity
+   is<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>I</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>4</m:mn>
+         <m:mo/>
+         <m:msub>
+           <m:mi>I</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:msup>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>α</m:mi>
+             <m:mo/>
+             <m:mi>s</m:mi>
+             <m:mo/>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mi>n</m:mi>
+             <m:mo/>
+             <m:msup>
+               <m:mi>c</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mo/>
+             <m:mi>β</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>recall<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>α</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>d</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mi>θ</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>β</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>a</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mi>θ</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>If
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   goes to 0 then expression just becomes the expression for single slit
+   diffraction. If a goes to 0 then the expression just becomes that for Youngs
+   double slit. The double slit diffraction is just the product of these two
+   results. (Hey cool!)
+</para>
+</section>
+</content>
+</document>

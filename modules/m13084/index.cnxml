@@ -1,0 +1,813 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thin Lens</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fe29299e-958f-47a0-9f2a-fde012efec89</md:uuid>
+</metadata>
+  <content>
+<para id="id5797948">
+   Now we can turn to the case of lenses. A lens can be considered the
+   combination of two spherical interfaces.  To solve an optical problem using
+   multiple interfaces or lenses, one considers each one by one.  For example one
+   finds the image created by the first surface and then uses it as the object of
+   the second surface.
+   
+
+   <figure id="id11886486"><media id="idm212784" alt=""><image src="../../media/thin-lens.png" mime-type="image/png" thumbnail="thin-lens-small.png"/></media></figure>
+
+Consider
+   a lens of thickness
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   as shown in the drawing.  At interface 1 (coloured red in the drawing) we
+   have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>o</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>i</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>For
+   surface 2 (coloured blue) the image of the the first surface becomes the object
+   of the second. Note the sign of
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:msub>
+           <m:mi>o</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is negative so that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:msub>
+           <m:mi>o</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>d</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:msub>
+           <m:mi>s</m:mi>
+           <m:msub>
+             <m:mi>i</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Thus
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>o</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>i</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>becomes
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mrow>
+             <m:mi>d</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:msub>
+                 <m:mi>i</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+             </m:msub>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>i</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>R</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>Now
+   add the equations
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>o</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>i</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mrow>
+             <m:mi>d</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:msub>
+                 <m:mi>i</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+             </m:msub>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:msub>
+               <m:mi>i</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:msub>
+             <m:mi>R</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>3</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:msub>
+             <m:mi>R</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+   </m:math>
+</para>
+<para id="id29957792">
+   <m:math mode="display" display="block">
+   </m:math><m:math mode="display" display="block">
+   </m:math>Now
+   we take the thin lens case,that is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+       <m:mo form="infix">→</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:msub>
+             <m:mi>R</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>3</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:msub>
+             <m:mi>R</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>That
+   equation would work for making prescription swim goggles for example, however
+   most of the time
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>3</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   (namely air for eyeglasses). So making that the case we get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mfrac>
+               <m:mn>1</m:mn>
+               <m:msub>
+                 <m:mi>R</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+             </m:mfrac>
+             <m:mo form="infix">−</m:mo>
+             <m:mfrac>
+               <m:mn>1</m:mn>
+               <m:msub>
+                 <m:mi>R</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+             </m:mfrac>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>which
+   in the case of air (n=1) is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:mi>o</m:mi>
+             </m:msub>
+           </m:mfrac>
+           <m:mo form="infix">+</m:mo>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mi>l</m:mi>
+               </m:msub>
+               <m:mo form="infix">−</m:mo>
+               <m:mn>1</m:mn>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mn>1</m:mn>
+                 <m:msub>
+                   <m:mi>R</m:mi>
+                   <m:mn>1</m:mn>
+                 </m:msub>
+               </m:mfrac>
+               <m:mo form="infix">−</m:mo>
+               <m:mfrac>
+                 <m:mn>1</m:mn>
+                 <m:msub>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msub>
+               </m:mfrac>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>That
+   is The lensmaker's formula(where
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mi>l</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is the index of refraction of the lens material)Now we can find
+   the foci
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:munder>
+         <m:mo mathcolor="gray" movablelimits="true" form="prefix">lim</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo form="infix">→</m:mo>
+           <m:mi>∞</m:mi>
+         </m:mrow>
+       </m:munder>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mi>o</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:munder>
+         <m:mo mathcolor="gray" movablelimits="true" form="prefix">lim</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+           <m:mo form="infix">→</m:mo>
+           <m:mi>∞</m:mi>
+         </m:mrow>
+       </m:munder>
+     </m:mrow>
+   </m:math>Which
+   we see from the lensmaker's formula must be the same so lets drop the
+   subscripts:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>l</m:mi>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:mn>1</m:mn>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mfrac>
+               <m:mn>1</m:mn>
+               <m:msub>
+                 <m:mi>R</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+             </m:mfrac>
+             <m:mo form="infix">−</m:mo>
+             <m:mfrac>
+               <m:mn>1</m:mn>
+               <m:msub>
+                 <m:mi>R</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+             </m:mfrac>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>which
+   is the Gaussian Lens Formula 
+</para>
+<para id="id30704324">
+   
+</para>
+<para id="id15566655">
+   A convex lens will have a positive focal length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+     </m:mrow>
+   </m:math>.
+   
+
+   <figure id="id3673284"><media id="idp1567792" alt=""><image src="../../media/convexLens.png" mime-type="image/png" thumbnail="convexLensSmall.png"/></media></figure>
+
+</para>
+<para id="id30704565">
+   
+</para>
+<para id="id30564224">
+   We can use the same equation as before for the magnification,
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>m</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>o</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>but
+   now note that
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   so the equation becomes
+</para>
+<para id="id14886577">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>m</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:msub>
+               <m:mi>s</m:mi>
+               <m:mi>o</m:mi>
+             </m:msub>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>You
+   can examine the figure above to verify that this is true.
+</para>
+<para id="id14886918">
+   
+</para>
+<para id="id25963286">
+   We can also consider a concave lens which has a negative focal length. Notice
+   that in this case the image is upright and virtual.  Notice that in this case
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is
+   negative.
+
+   <figure id="id6832356"><media id="idm765312" alt=""><image src="../../media/ConcaveLens.png" mime-type="image/png" thumbnail="ConcaveLensSmall.png"/></media>
+</figure>
+
+</para>
+</content>
+</document>

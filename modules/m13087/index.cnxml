@@ -1,0 +1,238 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mirrors</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b342093f-fd20-4a9b-9b64-bfa6c770a2e8</md:uuid>
+</metadata>
+  <content>
+<para id="id44677465">
+   
+
+   <figure id="id44517023"><media id="idm8856096" alt=""><image src="../../media/ReflectionAtConvexSphere.png" mime-type="image/png" thumbnail="ReflectionAtConvexSphereSmall.png"/></media></figure>
+
+Notice
+   that in Mirrors we get a virtual image to the right of the surface. Thus for
+   mirrors we say that
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is positive to the left of the mirror. This allows to retain
+   correspondence between
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   being negative and an image being virtual.
+</para>
+<para id="id39983413">
+   Again we use the small angle approximation. By inspection of the figure we see
+   that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>α</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>β</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>α</m:mi>
+           <m:mo form="infix">+</m:mo>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Now
+   we multiply the second equation by two and subtract the first equation from it
+   and we get:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>α</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mi>α</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:mi>β</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>α</m:mi>
+           <m:mo form="infix">−</m:mo>
+           <m:mi>β</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Using
+   the small angle approximation we see that this is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mi>h</m:mi>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mi>h</m:mi>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>h</m:mi>
+         </m:mrow>
+         <m:mi>r</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>where
+   I have used the fact that
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is negative to the right of the mirror. So I can write the mirror equation as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mi>R</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>where
+   for a mirror
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mn>1</m:mn>
+         <m:mo form="infix">/</m:mo>
+         <m:mi>f</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mo form="infix">/</m:mo>
+         <m:mi>R</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</content>
+</document>

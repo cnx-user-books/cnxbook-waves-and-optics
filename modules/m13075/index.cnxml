@@ -1,0 +1,685 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Evanescent Wave</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d7a096db-f6b0-4073-8cbc-7a2a7b3e65d8</md:uuid>
+</metadata>
+  <content>
+<para id="id8798356">
+   We saw that when the index of refraction of the incident material is greater
+   than the transmitting material we can get total internal reflection at the
+   critical angle. An interesting question is "what happens at larger angles of
+   incidence?" This actually is somewhat subtle. From simple trigonometry we know
+   that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:msqrt>
+           <m:mn>1</m:mn>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:msup>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:msqrt>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   We also know from Snell's law that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   so we have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:msqrt>
+           <m:mn>1</m:mn>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:mfrac>
+               <m:msubsup>
+                 <m:mi>n</m:mi>
+                 <m:mi>i</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msubsup>
+               <m:msubsup>
+                 <m:mi>n</m:mi>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msubsup>
+             </m:mfrac>
+             <m:mo/>
+             <m:mrow>
+               <m:msup>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:msqrt>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   So we see that if
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi mathcolor="gray">cos</m:mi>
+       <m:mo/>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   can become an imaginary number! For convenience we will write this as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">cos</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>i</m:mi>
+         <m:mo/>
+         <m:msqrt>
+           <m:mrow>
+             <m:mfrac>
+               <m:msubsup>
+                 <m:mi>n</m:mi>
+                 <m:mi>i</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msubsup>
+               <m:msubsup>
+                 <m:mi>n</m:mi>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msubsup>
+             </m:mfrac>
+             <m:mo/>
+             <m:mrow>
+               <m:msup>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:mn>1</m:mn>
+         </m:msqrt>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Now lets write down the expression for the transmitted wave:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mrow>
+             <m:mn>0</m:mn>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mover accent="true">
+                     <m:msub>
+                       <m:mi>K</m:mi>
+                       <m:mi>t</m:mi>
+                     </m:msub>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                   <m:mo form="infix">⋅</m:mo>
+                   <m:mover accent="true">
+                     <m:mi>r</m:mi>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   For simplicity we will assume that the interface lies in the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   plane and thus the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>y</m:mi>
+     </m:mrow>
+   </m:math>
+   direction is normal to the interface. Also, we assume the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>z</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   plane defines then plane of incidence. Then we can write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:msub>
+           <m:mi>K</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>K</m:mi>
+             <m:mrow>
+               <m:mi>t</m:mi>
+               <m:mo/>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:msub>
+           <m:mo form="infix">,</m:mo>
+           <m:msub>
+             <m:mi>K</m:mi>
+             <m:mrow>
+               <m:mi>t</m:mi>
+               <m:mo/>
+               <m:mi>y</m:mi>
+             </m:mrow>
+           </m:msub>
+           <m:mo form="infix">,</m:mo>
+           <m:mn>0</m:mn>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:msub>
+             <m:mi>K</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>K</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>t</m:mi>
+                 </m:msub>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">,</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>K</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mrow>
+                 <m:mi mathcolor="gray">cos</m:mi>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>t</m:mi>
+                 </m:msub>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">,</m:mo>
+             <m:mn>0</m:mn>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   Also
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>r</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>y</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mn>0</m:mn>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id8514035">
+   So now we can write that the wave as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mrow>
+             <m:mn>0</m:mn>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mover accent="true">
+                     <m:msub>
+                       <m:mi>K</m:mi>
+                       <m:mi>t</m:mi>
+                     </m:msub>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                   <m:mo form="infix">⋅</m:mo>
+                   <m:mover accent="true">
+                     <m:mi>r</m:mi>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mrow>
+             <m:mn>0</m:mn>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>K</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>t</m:mi>
+                 </m:msub>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>K</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>t</m:mi>
+                 </m:msub>
+                 <m:mo/>
+                 <m:mi>y</m:mi>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">−</m:mo>
+               <m:mi>i</m:mi>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>ω</m:mi>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>E</m:mi>
+             <m:mrow>
+               <m:mn>0</m:mn>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:msub>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>K</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+               <m:mo/>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:msub>
+                     <m:mi>θ</m:mi>
+                     <m:mi>t</m:mi>
+                   </m:msub>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mrow>
+           </m:msup>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:msqrt>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:msubsup>
+                         <m:mi>n</m:mi>
+                         <m:mi>i</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msubsup>
+                       <m:msubsup>
+                         <m:mi>n</m:mi>
+                         <m:mi>t</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msubsup>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:msup>
+                         <m:mi mathcolor="gray">sin</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msup>
+                       <m:mo/>
+                       <m:msub>
+                         <m:mi>θ</m:mi>
+                         <m:mi>i</m:mi>
+                       </m:msub>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mn>1</m:mn>
+                 </m:msqrt>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>y</m:mi>
+             </m:mrow>
+           </m:msup>
+           <m:mo/>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>ω</m:mi>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   It is interesting to note the effect of the term
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>e</m:mi>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:msqrt>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msubsup>
+                     <m:mi>n</m:mi>
+                     <m:mi>i</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msubsup>
+                   <m:msubsup>
+                     <m:mi>n</m:mi>
+                     <m:mi>t</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msubsup>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>θ</m:mi>
+                     <m:mi>i</m:mi>
+                   </m:msub>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mn>1</m:mn>
+             </m:msqrt>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>y</m:mi>
+         </m:mrow>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   in that expression. This is an exponential decay. The amplitude of the wave
+   drops rapidly to zero.
+</para>
+<para id="id8671839">
+   So there is a transmitted wave but its amplitude drops precipitously. This is
+   referred to as the evanescent wave.
+</para>
+</content>
+</document>

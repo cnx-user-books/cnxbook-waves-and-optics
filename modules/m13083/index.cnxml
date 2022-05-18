@@ -1,0 +1,1144 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Refraction at a Spherical Interface</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4ab0c9cb-2ac7-4739-ab26-0b2860435840</md:uuid>
+</metadata>
+  <content>
+<para id="id26439285">
+   
+
+   <figure id="id26439188"><media id="idp8866848" alt=""><image src="../../media/RefractionAtConvexSphere.png" mime-type="image/png" thumbnail="RefractionAtConvexSphereSmall.png"/></media>
+<caption>Refraction at a spherical interface. Click on image for larger version. </caption></figure>
+
+Look
+   at the figure showing refraction at a sphere.In this figure:
+</para>
+<list list-type="bulleted" id="id30684425">
+   <item>
+      
+         C is the center of curvature of the spherical surface
+      
+   </item>
+   <item>
+      
+         R is the radius of curvature
+      
+   </item>
+   <item>
+      
+         O is the position of the Object
+      
+   </item>
+   <item>
+      
+         I is the position of the Image
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>S</m:mi>
+            <m:mi>o</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is the distance of the object from the surface along the optical axis
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>S</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is the distance from the surface to the Image
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>n</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo form="infix">&lt;</m:mo>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo/>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+      
+   </item>
+</list>
+<para id="id30684581">
+   There is a ray that strikes the surface at height h. In general rays hitting
+   the surface at different points will be bent to different points along the
+   optical axis. However for small angles we will show they all converge at the
+   same point.So lets use the small angle
+   approximation<m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:mi mathcolor="gray">tan</m:mi>
+            <m:mo/>
+            <m:mi>α</m:mi>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:msub>
+              <m:mi>s</m:mi>
+              <m:mi>o</m:mi>
+            </m:msub>
+          </m:mfrac>
+          <m:mo form="infix">≈</m:mo>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:mi mathcolor="gray">tan</m:mi>
+            <m:mo/>
+            <m:mi>β</m:mi>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:msub>
+              <m:mi>s</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+          </m:mfrac>
+          <m:mo form="infix">≈</m:mo>
+          <m:mi>β</m:mi>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:mi mathcolor="gray">tan</m:mi>
+            <m:mo/>
+            <m:mi>γ</m:mi>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+          <m:mo form="infix">≈</m:mo>
+          <m:mi>γ</m:mi>
+        </m:mrow>
+      </m:math>
+   Now from trigonometry we can see that:
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:msub>
+            <m:mi>θ</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mi>α</m:mi>
+            <m:mo form="infix">+</m:mo>
+            <m:mi>γ</m:mi>
+          </m:mrow>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mi>γ</m:mi>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mi>t</m:mi>
+            </m:msub>
+            <m:mo form="infix">+</m:mo>
+            <m:mi>β</m:mi>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+   or
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:msub>
+            <m:mi>θ</m:mi>
+            <m:mi>t</m:mi>
+          </m:msub>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mi>γ</m:mi>
+            <m:mo form="infix">−</m:mo>
+            <m:mi>β</m:mi>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+   now Snell's law says
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:mrow>
+              <m:mi mathcolor="gray">sin</m:mi>
+              <m:mo/>
+              <m:msub>
+                <m:mi>θ</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:mrow>
+              <m:mi mathcolor="gray">sin</m:mi>
+              <m:mo/>
+              <m:msub>
+                <m:mi>θ</m:mi>
+                <m:mi>t</m:mi>
+              </m:msub>
+            </m:mrow>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+   or
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mi>i</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:mo form="infix">≈</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mi>t</m:mi>
+            </m:msub>
+          </m:mrow>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:mrow>
+              <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+              <m:mrow>
+                <m:mi>α</m:mi>
+                <m:mo form="infix">+</m:mo>
+                <m:mi>γ</m:mi>
+              </m:mrow>
+              <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:msub>
+              <m:mi>n</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo/>
+            <m:mrow>
+              <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+              <m:mrow>
+                <m:mi>γ</m:mi>
+                <m:mo form="infix">−</m:mo>
+                <m:mi>β</m:mi>
+              </m:mrow>
+              <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:mi>γ</m:mi>
+            <m:mo/>
+            <m:mrow>
+              <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo form="infix">−</m:mo>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo/>
+              <m:mi>β</m:mi>
+            </m:mrow>
+            <m:mo form="infix">+</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo/>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mrow>
+        </m:mrow>
+      </m:math><m:math mode="display" display="block">
+        <m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>h</m:mi>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+            <m:mo/>
+            <m:mrow>
+              <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo form="infix">−</m:mo>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo/>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:msub>
+                  <m:mi>s</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+              </m:mfrac>
+            </m:mrow>
+            <m:mo form="infix">+</m:mo>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo/>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:msub>
+                  <m:mi>s</m:mi>
+                  <m:mi>o</m:mi>
+                </m:msub>
+              </m:mfrac>
+            </m:mrow>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+   Now all the
+   <m:math display="inline">
+        <m:mrow>
+          <m:mi>h</m:mi>
+        </m:mrow>
+      </m:math>'s
+   cancel so there is no dependence on point on surface. That is:
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo form="infix">−</m:mo>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mfrac>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mfrac>
+            <m:mo form="infix">+</m:mo>
+            <m:mfrac>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+            </m:mfrac>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+   Now lets consider the case of a concave surface. The picture is
+</para>
+<para id="id26548659">
+   
+
+   <figure id="id26548667"><media id="idp8429136" alt=""><image src="../../media/refraction-at-sphere-Fixed.png" mime-type="image/png" thumbnail="refraction-at-sphere-Fixed-small.png"/></media>
+<caption>Click to get larger image. </caption></figure>
+
+Again
+   we use the small angle approximation and thus we have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   In this case we also see that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>α</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>γ</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>β</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>γ</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   so we can write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>α</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:mi>γ</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>β</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:mi>γ</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mfrac>
+               <m:mi>h</m:mi>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>o</m:mi>
+               </m:msub>
+             </m:mfrac>
+             <m:mo form="infix">−</m:mo>
+             <m:mfrac>
+               <m:mi>h</m:mi>
+               <m:mi>R</m:mi>
+             </m:mfrac>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mfrac>
+               <m:mi>h</m:mi>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mfrac>
+             <m:mo form="infix">−</m:mo>
+             <m:mfrac>
+               <m:mi>h</m:mi>
+               <m:mi>R</m:mi>
+             </m:mfrac>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id26438368">
+   However we can make the equation identical to the previous one if we adopt the
+   following sign convention:
+</para>
+<list list-type="bulleted" id="id26438374">
+   <item>
+      
+         <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>o</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+         is positive to the left of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>s</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is positive to the right of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:mi>R</m:mi>
+        </m:mrow>
+      </m:math>
+         is positive when the center of the sphere is to the right of the interface
+      
+   </item>
+</list>
+<para id="id26438465">
+   Then the equation becomes as before
+   <m:math mode="display" display="block">
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo form="infix">−</m:mo>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+          <m:mo form="infix">=</m:mo>
+          <m:mrow>
+            <m:mfrac>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+            </m:mfrac>
+            <m:mo form="infix">+</m:mo>
+            <m:mfrac>
+              <m:msub>
+                <m:mi>n</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>s</m:mi>
+                <m:mi>o</m:mi>
+              </m:msub>
+            </m:mfrac>
+          </m:mrow>
+        </m:mrow>
+      </m:math>
+</para>
+<para id="id26438602">
+   In this case note that the image is imaginary (whereas in the first case it
+   was real). Note that the actual rays pass through a real image.
+</para>
+<para id="id26438608">
+   
+</para>
+<para id="id26438617">
+   The focal point is the object point which causes the image to occur at
+   infinity.
+
+   <figure id="id26438627"><media id="idm1808224" alt=""><image src="../../media/refract_small.png" mime-type="image/png"/></media></figure>
+
+That
+   is all the rays end up traveling parallel to each other.  In this case
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   goes
+   to<m:math display="inline">
+     <m:mrow>
+       <m:mi>∞</m:mi>
+     </m:mrow>
+   </m:math>
+   so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>s</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mi>R</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   becomes
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:msub>
+           <m:mi>f</m:mi>
+           <m:mi>o</m:mi>
+         </m:msub>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mi>R</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>f</m:mi>
+           <m:mi>o</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+             <m:mo/>
+             <m:mi>R</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+             <m:mo form="infix">−</m:mo>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id26537324">
+   Now we can find a focal point to the right of the of the surface by
+   considering parallel rays coming in from the left.
+   
+
+   <figure id="id26537334"><media id="idp8766016" alt=""><image src="../../media/refract_fi_small.png" mime-type="image/png"/></media></figure>
+
+Then
+   we get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mi>R</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   But we do have to expand our sign conventionfor light
+   incident from the left
+</para>
+<list list-type="bulleted" id="id26537451">
+   <item>
+      
+         <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>s</m:mi>
+         <m:mi>o</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+         is positive to the left of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>s</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is positive to the right of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:mi>R</m:mi>
+        </m:mrow>
+      </m:math>
+         is positive when the center of the sphere is to the right of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>f</m:mi>
+            <m:mi>o</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is positive to the left of the interface
+      
+   </item>
+   <item>
+      
+         <m:math display="inline">
+        <m:mrow>
+          <m:msub>
+            <m:mi>f</m:mi>
+            <m:mi>i</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:math>
+         is positive to the right of the interface
+      
+   </item>
+</list>
+<para id="id26537605">
+   
+</para>
+<para id="id26537614">
+   With the definition of focal points, we also have a natural way to graphically
+   solve optical problems. Any ray drawn horizontally from the left side of the
+   interface will pass through the focal point on the right. Any ray going
+   through the focal point on the left will go horizontally on the right. The
+   following figure illustrates this.
+</para>
+<para id="id26537624">
+   
+
+   <figure id="id26537632"><media id="idp12903584" alt=""><image src="../../media/RayDrawingAtSphere.png" mime-type="image/png" thumbnail="RayDrawingAtSphereSmall.png"/></media></figure>
+
+</para>
+<para id="id26537645">
+   
+</para>
+<para id="id26537654">
+   The magnification of the image is the ratio of the heights
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>h</m:mi>
+         <m:mi>o</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   to
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>h</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   
+
+   <figure id="id26537708"><media id="idp5435424" alt=""><image src="../../media/MagnificationAtSphere.png" mime-type="image/png" thumbnail="MagnificationAtSphereSmall.png"/></media></figure>
+
+</para>
+<para id="id26537721">
+   Since we are using the small angle approximation, we have Snell's law
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mn>2</m:mn>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   which can be rewritten
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:msub>
+                 <m:mi>h</m:mi>
+                 <m:mi>o</m:mi>
+               </m:msub>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>o</m:mi>
+               </m:msub>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:msub>
+                 <m:mi>h</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   So we write that the magnification is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>m</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>h</m:mi>
+             <m:mi>o</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mfrac>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>s</m:mi>
+                 <m:mi>o</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   The negative sign is introduced to capture the fact that the image is
+   inverted. It is worth pointing out that in our diagram above, the image is
+   real, because the actual light rays pass through it.
+</para>
+</content>
+</document>

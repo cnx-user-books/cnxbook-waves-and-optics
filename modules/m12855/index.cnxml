@@ -1,0 +1,39 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vector Fields</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>086d095e-12df-43ea-8f6e-ad2da5d5476b</md:uuid>
+</metadata>
+  <content>
+<section id="id4703198">
+<title>Vector Fields</title>
+<para id="id8875712">
+   A vector field can be considered a map of vectors over some space. .  For
+   example if one were to show wind vectors on a weather map; that would be a
+   vector field.  The electric field surrounding a charge is a vector field (were
+   is the potential around the charge is a scalar field).
+</para>
+<para id="id8882428">
+   The flux of a vector field through a closed surface is the
+   average outward normal component of the vector times the area of the
+   surfaceflux = (average normal component
+   )<m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">⋅</m:mo>
+     </m:mrow>
+   </m:math>(surface
+   area)
+</para>
+
+<para id="id8879778">
+   Three vector fields are shown below. Which represents the electric field
+   eminating from a positive point charge in the middle? (Note that vectors of
+   similar magnitude are colored similarly in these plots)
+</para>
+<para id="id8878786">
+   
+
+   <figure id="id8892722"><media id="idm4229296" alt=""><image src="../../media/VectorFields.gif" mime-type="image/gif"/></media></figure>
+
+</para>
+</section>
+</content>
+</document>

@@ -1,0 +1,1311 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Polarization</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7f500866-68c7-4973-a0df-513c44b65da7</md:uuid>
+</metadata>
+  <content>
+<section id="id20646682">
+<title>Polarization</title>
+<para id="id20578679">
+   Recall that we can add waves so lets take a plane wave traveling in the z
+   direction and break it into components.
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>x</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mrow>
+             <m:mn>0</m:mn>
+             <m:mo/>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mover accent="true">
+               <m:mi>ı</m:mi>
+               <m:mo accent="true" form="postfix">̂</m:mo>
+             </m:mover>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>y</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mrow>
+             <m:mn>0</m:mn>
+             <m:mo/>
+             <m:mi>y</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>δ</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mover accent="true">
+               <m:mi></m:mi>
+               <m:mo accent="true" form="postfix">̂</m:mo>
+             </m:mover>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>δ</m:mi>
+     </m:mrow>
+   </m:math>
+   is some arbitrary phase between the two components. The electric field for the
+   wave is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mover accent="true">
+             <m:mi>E</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mi>x</m:mi>
+         </m:msub>
+         <m:mo form="infix">+</m:mo>
+         <m:msub>
+           <m:mover accent="true">
+             <m:mi>E</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mi>y</m:mi>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Now
+   there are a number of different cases that arise.
+</para>
+<para id="id15669222">
+   If
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>δ</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mn>0</m:mn>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mspace width="thickmathspace"/>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mspace width="thickmathspace"/>
+       <m:mrow>
+         <m:mn>4</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mi>…</m:mi>
+     </m:mrow>
+   </m:math>
+   Then we can write the field as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi>ı</m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi></m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>k</m:mi>
+                 <m:mo/>
+                 <m:mi>z</m:mi>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id20456992">
+   
+
+   
+      
+      
+         <figure id="id16378447"><media id="idm3015504" alt=""><image src="../../media/Drawing1.png" mime-type="image/png"/></media></figure>
+      
+      
+         
+            Polarization of light for the
+            case
+            <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi>ı</m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi></m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>k</m:mi>
+                 <m:mo/>
+                 <m:mi>z</m:mi>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+         
+      
+
+
+</para>
+<para id="id15668489">
+   The field is linearly polarized, that is the E field lies along a straight
+   line.
+</para>
+<para id="id20679144">
+   Likewise If
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>δ</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mi>π</m:mi>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mspace width="thickmathspace"/>
+       <m:mrow>
+         <m:mn>3</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mspace width="thickmathspace"/>
+       <m:mrow>
+         <m:mn>5</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+       <m:mo form="infix">,</m:mo>
+       <m:mi>…</m:mi>
+     </m:mrow>
+   </m:math>
+   Then again it is linearly polarized, but is now "flipped"
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi>i</m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi>j</m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>k</m:mi>
+                 <m:mo/>
+                 <m:mi>z</m:mi>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id20680269">
+   
+
+   
+      
+      
+         <figure id="id16654082"><media id="idm129344" alt=""><image src="../../media/Drawing2.png" mime-type="image/png"/></media></figure>
+      
+      
+         
+            Polarization of light for the
+            case
+            <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi>ı</m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>E</m:mi>
+                 <m:mrow>
+                   <m:mn>0</m:mn>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                 </m:mrow>
+               </m:msub>
+               <m:mo/>
+               <m:mover accent="true">
+                 <m:mi></m:mi>
+                 <m:mo accent="true" form="postfix">̂</m:mo>
+               </m:mover>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>k</m:mi>
+                 <m:mo/>
+                 <m:mi>z</m:mi>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+         
+      
+
+
+</para>
+<para id="id20578782">
+   Circularly polarized light is a particularly interest example. Let
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>δ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mi>π</m:mi>
+         </m:mrow>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mrow>
+           <m:mn>0</m:mn>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mrow>
+           <m:mn>0</m:mn>
+           <m:mo/>
+           <m:mi>y</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mn>0</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id20646695">
+   Then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>x</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mover accent="true">
+               <m:mi>ı</m:mi>
+               <m:mo accent="true" form="postfix">̂</m:mo>
+             </m:mover>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>y</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>π</m:mi>
+                   <m:mo form="infix">/</m:mo>
+                   <m:mn>2</m:mn>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mover accent="true">
+               <m:mi></m:mi>
+               <m:mo accent="true" form="postfix">̂</m:mo>
+             </m:mover>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>y</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mover accent="true">
+               <m:mi></m:mi>
+               <m:mo accent="true" form="postfix">̂</m:mo>
+             </m:mover>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:mi>z</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi>ı</m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:mi>z</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi></m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id16390875">
+   The direction of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   is changing with time. For example consider the case at
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>z</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>.
+   Then
+</para>
+<para id="id16836664">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>ω</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi>ı</m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>ω</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi></m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id20450284">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi>ı</m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi></m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id20571801">
+   In this case the electric field undergoes  uniform circular rotation. For
+   light coming out of the page, it will have the motion shown in the
+   figure
+
+   
+      
+      
+         <figure id="id20350483"><media id="idm9859632" alt=""><image src="../../media/Drawing3.png" mime-type="image/png"/></media></figure>
+      
+      
+         
+            Polarization of light for the
+            case
+            <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>E</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi mathcolor="gray">cos</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mover accent="true">
+                     <m:mi>ı</m:mi>
+                     <m:mo accent="true" form="postfix">̂</m:mo>
+                   </m:mover>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mover accent="true">
+                     <m:mi></m:mi>
+                     <m:mo accent="true" form="postfix">̂</m:mo>
+                   </m:mover>
+                 </m:mrow>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+         
+      
+
+
+I, and most physicists would
+call the Left Hand Circular polarization (LHC). The thumb points in the
+direction of the light ray and the fingers curve in the direction of rotation.
+(This is known as the Angular momentum convention, optical scientists will use
+the "Optical" convention which is opposite - we will stick to the angular
+momentum convention.)
+</para>
+<para id="id20572505">
+   Suppose
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>δ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>π</m:mi>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   then you get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:mi>z</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi>ı</m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:mi>z</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi></m:mi>
+                   <m:mo accent="true" form="postfix">̂</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>This
+   now has the opposite rotation, it is Right Handed.
+</para>
+<para id="id20352302">
+   The most general case of polarization has
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>δ</m:mi>
+     </m:mrow>
+   </m:math>
+   arbitrary and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mrow>
+           <m:mn>0</m:mn>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">≠</m:mo>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mrow>
+           <m:mn>0</m:mn>
+           <m:mo/>
+           <m:mi>y</m:mi>
+         </m:mrow>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   and is elliptically polarized.
+</para>
+<para id="id20479154">
+   
+
+   
+      
+      
+         <figure id="id20314962"><media id="idp200720" alt=""><image src="../../media/Drawing4.png" mime-type="image/png"/></media></figure>
+      
+      
+         
+            Elliptical
+            polarization
+         
+      
+
+
+</para>
+<section id="id14583389">
+<title>Natural light</title>
+<para id="id12340268">
+   Natural light is emitted with the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field in a mixture of random directions. This in unpolarized light. At any
+   particular instant
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   has a particular direction, but that direction changes rapidly and randomly.
+</para>
+</section>
+<section id="id20315365">
+<title>Malus' Law</title>
+<para id="id15614448">
+   A polarizer is a device that takes incident natural light and transmits
+   polarized light.  For example a linear polarizer will take incident light and
+   select only that component of the light that has its
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field lined up along the transmission axis. Suppose there is a linear
+   polarizer that transmits light along a particular axis. This is followed by a
+   second linear polarizer that has its transmission axis at a different angle
+   with
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>θ</m:mi>
+     </m:mrow>
+   </m:math>
+   being the angle between the transmission axes. Since
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>I</m:mi>
+       <m:mo form="infix">∼</m:mo>
+       <m:msup>
+         <m:mi>E</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   then at the second polarizer
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>I</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>θ</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>I</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mn>0</m:mn>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:msup>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>I</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mn>0</m:mn>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   is the Irradiance of the light hitting the second polarizer.
+</para>
+<para id="id14051780">
+   Lets consider unpolarized light hitting a linear polarizer. Then half the
+   Irradiance will get through. If this is followed by a second polarizer at
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mn>90</m:mn>
+         <m:mn>0</m:mn>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   then no light will pass through the second polarizer. Now what happens if a
+   third polarizer is placed between them?
+</para>
+</section>
+</section>
+</content>
+</document>

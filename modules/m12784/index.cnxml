@@ -1,0 +1,334 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 7.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0aaec3d4-e0ca-47e8-b727-5c3af634e517</md:uuid>
+</metadata>
+  <content>
+<section id="id5130530">
+<title>Partial Derivatives</title>
+<para id="id4062273">
+   A Partial derivative is defined as the derivative of the function w.r.t.
+   one of the variables while holding the others constant
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:munder>
+           <m:mo mathcolor="gray" movablelimits="true" form="prefix">lim</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">Δ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mo form="infix">→</m:mo>
+             <m:mn>0</m:mn>
+           </m:mrow>
+         </m:munder>
+         <m:mfrac>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>x</m:mi>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">Δ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo form="infix">,</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">,</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">Δ</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:munder>
+           <m:mo mathcolor="gray" movablelimits="true" form="prefix">lim</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">Δ</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo form="infix">→</m:mo>
+             <m:mn>0</m:mn>
+           </m:mrow>
+         </m:munder>
+         <m:mfrac>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">,</m:mo>
+                   <m:mrow>
+                     <m:mi>t</m:mi>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">Δ</m:mo>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">,</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">Δ</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Some examples:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>3</m:mn>
+           <m:mo/>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>x</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>t</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>6</m:mn>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msup>
+           <m:mi>t</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>x</m:mi>
+         <m:mo/>
+         <m:mi>t</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>6</m:mn>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>t</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>t</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

@@ -1,0 +1,349 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 29.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6656b359-741b-4cb3-af94-524939d7d5b6</md:uuid>
+</metadata>
+  <content>
+<section id="id15567405">
+<title>The Huygens-Fresnel Principle</title>
+<para id="id15627642">
+   In order to proceed with the discussion we have to define two terms. A wave
+   front is the surface of constant phase. In a plane wave these are planes and
+   in a spherical wave these are spheres. A ray travels perpendicular to the
+   fronts.
+</para>
+<para id="id13191586">
+   Huygens postulated that as a wave propagates through a medium each point on
+   the advancing wavefront acts as a new point source of the wave. This is
+   correct physics for the water waves but not for light waves. However the
+   Helmholtz equation for diffraction of EM waves gives a solution identical to
+   that give by Huygens' principle.
+</para>
+<para id="id13775228">
+   Look at the figure which shows a wavefront AB coming to a surface and is
+   reflected creating the front CD. The point A hits the surface first. The point
+   B hits a time
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>v</m:mi>
+       <m:mo/>
+       <m:mi>t</m:mi>
+     </m:mrow>
+   </m:math>
+   later. During that time a spherical wave is emitted from A and travels a
+   distance
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>v</m:mi>
+       <m:mo/>
+       <m:mi>t</m:mi>
+     </m:mrow>
+   </m:math>.
+   In fact this happens for every point along the wavefront. The next figure
+   attempts to show how a number of waves line up along the line DC and that this
+   is perpendicular to the line AD.
+</para>
+<para id="id14735394">
+   
+
+   <figure id="id15574051"><media id="idp7571568" alt=""><image src="../../media/Huygens-Reflection.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id15660163">
+   
+
+   <figure id="id15701834"><media id="idp7025696" alt=""><image src="../../media/Huygens-Reflection-II.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id14810503">
+   From this we see that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi>v</m:mi>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mi>C</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>r</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi>v</m:mi>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mi>C</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   so
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>r</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   
+</para>
+<para id="id16456703">
+   For refraction a similar thing happens. See figure (geometric optics / Huygens
+   refraction.vsd )
+</para>
+<para id="id15684688">
+   
+
+   <figure id="id15092214"><media id="idp8112176" alt=""><image src="../../media/Huygens-Refraction.png" mime-type="image/png"/></media></figure>
+
+
+   In this case the velocities are different in the two media and so one obtains:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mi>C</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mi>C</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>which
+   then can be rearranged
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>or
+   rearranging some more
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>finally
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>which
+   is Snell's law. Now note that normally one uses rays, in which case the angles
+   are measured w.r.t. the normal to the surface.
+</para>
+</section>
+</content>
+</document>

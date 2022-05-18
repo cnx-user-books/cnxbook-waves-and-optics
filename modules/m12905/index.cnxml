@@ -1,0 +1,1267 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 34.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>10960155-9ed9-446a-a93b-180bbe4305ea</md:uuid>
+</metadata>
+  <content>
+<section id="id17724510">
+<title>The Fresnel Equations</title>
+<para id="id16679540">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>r</m:mi>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>r</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>t</m:mi>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id15255114">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>r</m:mi>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>r</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>t</m:mi>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+<section id="id16295073">
+<title>Why Polaroid sunglasses work</title>
+<para id="id16880682">
+   Lets put these equations to work and figure out something practical. Consider
+   light reflecting off a surface, such as the road in front of you when you are
+   driving a car. The light hitting the road surface can have any polarization
+   but that will be some addition of light that has
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">⊥</m:mo>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">∥</m:mo>
+     </m:mrow>
+   </m:math>
+   to the plane of incidence. From
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>r</m:mi>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>r</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>r</m:mi>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>r</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mrow>
+                 <m:mn>0</m:mn>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+               </m:mrow>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">cos</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>θ</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   we see there is an angle where there is no
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">∥</m:mo>
+     </m:mrow>
+   </m:math>
+   and only
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">⊥</m:mo>
+     </m:mrow>
+   </m:math>
+   light, namely
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   Now we can use Snell's law rewritten as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   and multiply both sides to get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>i</m:mi>
+                 </m:msub>
+               </m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mi>t</m:mi>
+               </m:msub>
+             </m:mfrac>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:msub>
+               <m:mi>θ</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>t</m:mi>
+                 </m:msub>
+               </m:mrow>
+               <m:msub>
+                 <m:mi>n</m:mi>
+                 <m:mi>i</m:mi>
+               </m:msub>
+             </m:mfrac>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   which can only be true if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>π</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo form="infix">−</m:mo>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   In this case Snell's law can be written
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msub>
+                     <m:mi>n</m:mi>
+                     <m:mi>t</m:mi>
+                   </m:msub>
+                   <m:msub>
+                     <m:mi>n</m:mi>
+                     <m:mi>i</m:mi>
+                   </m:msub>
+                 </m:mfrac>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>θ</m:mi>
+                       <m:mi>i</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>θ</m:mi>
+                       <m:mi>t</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>θ</m:mi>
+                     <m:mi>i</m:mi>
+                   </m:msub>
+                 </m:mrow>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>π</m:mi>
+                         <m:mo form="infix">/</m:mo>
+                         <m:mn>2</m:mn>
+                       </m:mrow>
+                       <m:mo form="infix">−</m:mo>
+                       <m:msub>
+                         <m:mi>θ</m:mi>
+                         <m:mi>i</m:mi>
+                       </m:msub>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mfrac>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mi mathcolor="gray">tan</m:mi>
+                 <m:mo/>
+                 <m:msub>
+                   <m:mi>θ</m:mi>
+                   <m:mi>i</m:mi>
+                 </m:msub>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   The angle that gives this effect is known as Brewster's angle
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mrow>
+           <m:mi>B</m:mi>
+           <m:mo/>
+           <m:mi>r</m:mi>
+           <m:mo/>
+           <m:mi>e</m:mi>
+           <m:mo/>
+           <m:mi>w</m:mi>
+           <m:mo/>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>t</m:mi>
+           <m:mo/>
+           <m:mi>e</m:mi>
+           <m:mo/>
+           <m:mi>r</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mi mathcolor="gray">tan</m:mi>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>1</m:mn>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   At this angle light is completely polarized, it only has
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">⊥</m:mo>
+     </m:mrow>
+   </m:math>
+   to the plane of incidence (or parallel to the surface). Thus the glare you get
+   from reflected light tends to be polarized in this way. In 1929 Edwin Land
+   invented a method for making celluoid filters to filter out light with given
+   polarizations. He then manufactured sunglasses with these polarizers lined up
+   to filter out the
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mo form="infix">⊥</m:mo>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   light and thereby reduce glare.
+</para>
+</section>
+<section id="id17737097">
+<title>Other cases</title>
+<para id="id16270704">
+   Look at the Fresnel equations again and examine what happens when
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   approaches 90 degrees. The reflection approaches 1 (ignore the signs)  Thus at
+   Glancing incidence you get lots of reflection. In fact X-ray telescopes use
+   this to focus the x-rays onto their detector.
+</para>
+<para id="id17202284">
+   Another effect, if
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   then there is an angle of incidence beyond which light is only reflected. That
+   is the angle where
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>90</m:mn>
+     </m:mrow>
+   </m:math>
+   degrees.
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>t</m:mi>
+       </m:msub>
+       <m:mo form="infix">→</m:mo>
+       <m:mrow>
+         <m:mi>π</m:mi>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">→</m:mo>
+       <m:mn>1</m:mn>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:msub>
+           <m:mi>θ</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">→</m:mo>
+       <m:mfrac>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   The critical angle at which this occurs is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>c</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mn>1</m:mn>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

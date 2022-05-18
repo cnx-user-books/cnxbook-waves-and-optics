@@ -1,0 +1,184 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 19.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>623bfb93-e7a8-4021-9f99-282dc0b4ca8d</md:uuid>
+</metadata>
+  <content>
+<section id="id7957327">
+<title>Faraday's Law</title>
+<para id="id8503475">
+   The magnetic flux is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>Φ</m:mi>
+         <m:mi>M</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∫</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>B</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>A</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>A
+   device that can maintain a potential difference, despite the flow of current
+   is a source of electromotive force. (EMF) The definition is mathematically
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>ɛ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>s</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Faraday's
+   law states
+   that<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>ɛ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix">−</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msub>
+               <m:mi>Φ</m:mi>
+               <m:mi>M</m:mi>
+             </m:msub>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>This
+   is simply an experimental fact.
+</para>
+<para id="id7267039">
+   Faraday's law could also be
+   written<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>s</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mrow>
+                   <m:mo form="prefix">∂</m:mo>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mfrac>
+               <m:mrow>
+                 <m:mo form="prefix" largeop="true">∫</m:mo>
+                 <m:mover accent="true">
+                   <m:mi>B</m:mi>
+                   <m:mo accent="true" form="postfix">⃗</m:mo>
+                 </m:mover>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">⋅</m:mo>
+           <m:mi>d</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:mover accent="true">
+           <m:mi>A</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id6921027">
+   I will leave it as a problem to show that this can also be
+   written<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mover accent="true">
+             <m:mo form="prefix">∇</m:mo>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mo form="infix">×</m:mo>
+           <m:mover accent="true">
+             <m:mi>E</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mfrac>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mover accent="true">
+                 <m:mi>B</m:mi>
+                 <m:mo accent="true" form="postfix">⃗</m:mo>
+               </m:mover>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

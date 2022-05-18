@@ -1,0 +1,509 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>module 22.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>80f07d79-8bf8-4c95-b773-fb31a5da7b0c</md:uuid>
+</metadata>
+  <content>
+<section id="id14457394">
+<title>Plane Waves</title>
+<para id="id13816595">
+   We want to find the expression for a plane that is perpendicular to
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>k</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>,
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>k</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   is a vector in the direction of propagation of the wave.The plane is the
+   set of points that has the same projection onto the vector
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>k</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   That is any point
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>r</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   that satisfies
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>k</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>r</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>c</m:mi>
+         <m:mo/>
+         <m:mi>o</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>s</m:mi>
+         <m:mo/>
+         <m:mi>t</m:mi>
+         <m:mo/>
+         <m:mi>a</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>t</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   is a point on the planeNow consider the function
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>ψ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mover accent="true">
+             <m:mi>r</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mover accent="true">
+                 <m:mi>k</m:mi>
+                 <m:mo accent="true" form="postfix">⃗</m:mo>
+               </m:mover>
+               <m:mo form="infix">⋅</m:mo>
+               <m:mover accent="true">
+                 <m:mi>r</m:mi>
+                 <m:mo accent="true" form="postfix">⃗</m:mo>
+               </m:mover>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   we see that the magnitude of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>ψ</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mover accent="true">
+           <m:mi>r</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   is the same over every plane that is defined by
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>k</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>r</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>c</m:mi>
+         <m:mo/>
+         <m:mi>o</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>s</m:mi>
+         <m:mo/>
+         <m:mi>t</m:mi>
+         <m:mo/>
+         <m:mi>a</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>t</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   we want to construct harmonic waves, ie. they should repeat every
+   wavelength along the direction of propagation so they should satisfy
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>ψ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mover accent="true">
+             <m:mi>r</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>ψ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>r</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">+</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mi>λ</m:mi>
+                 <m:mo/>
+                 <m:mover accent="true">
+                   <m:mi>k</m:mi>
+                   <m:mo accent="true" form="postfix">⃗</m:mo>
+                 </m:mover>
+               </m:mrow>
+               <m:mi>k</m:mi>
+             </m:mfrac>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   is the wavelengththen we must have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>A</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mover accent="true">
+                           <m:mi>k</m:mi>
+                           <m:mo accent="true" form="postfix">⃗</m:mo>
+                         </m:mover>
+                         <m:mo form="infix">⋅</m:mo>
+                         <m:mover accent="true">
+                           <m:mi>r</m:mi>
+                           <m:mo accent="true" form="postfix">⃗</m:mo>
+                         </m:mover>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mi>A</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mover accent="true">
+                           <m:mi>k</m:mi>
+                           <m:mo accent="true" form="postfix">⃗</m:mo>
+                         </m:mover>
+                         <m:mo form="infix">⋅</m:mo>
+                         <m:mrow>
+                           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                           <m:mrow>
+                             <m:mover accent="true">
+                               <m:mi>r</m:mi>
+                               <m:mo accent="true" form="postfix">⃗</m:mo>
+                             </m:mover>
+                             <m:mo form="infix">+</m:mo>
+                             <m:mfrac>
+                               <m:mrow>
+                                 <m:mi>λ</m:mi>
+                                 <m:mo/>
+                                 <m:mover accent="true">
+                                   <m:mi>k</m:mi>
+                                   <m:mo accent="true" form="postfix">⃗</m:mo>
+                                 </m:mover>
+                               </m:mrow>
+                               <m:mi>k</m:mi>
+                             </m:mfrac>
+                           </m:mrow>
+                           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>A</m:mi>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mover accent="true">
+                         <m:mi>k</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                       <m:mo form="infix">⋅</m:mo>
+                       <m:mover accent="true">
+                         <m:mi>r</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mover accent="true">
+                         <m:mi>k</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                       <m:mo form="infix">⋅</m:mo>
+                       <m:mover accent="true">
+                         <m:mi>k</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi>λ</m:mi>
+                       <m:mo form="infix">/</m:mo>
+                       <m:mi>k</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>A</m:mi>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mover accent="true">
+                         <m:mi>k</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                       <m:mo form="infix">⋅</m:mo>
+                       <m:mover accent="true">
+                         <m:mi>r</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mi>λ</m:mi>
+                   </m:mrow>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   This is true if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>e</m:mi>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>λ</m:mi>
+           <m:mo/>
+           <m:mi>k</m:mi>
+         </m:mrow>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>1</m:mn>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mi>e</m:mi>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>π</m:mi>
+         </m:mrow>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>λ</m:mi>
+         <m:mo/>
+         <m:mi>k</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>k</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>π</m:mi>
+         </m:mrow>
+         <m:mi>λ</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   This should have a familiar look to it! Finally we want these waves to
+   propagate in time so you should be able to guess the answer from our work on
+   mechanical waves
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>ψ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>r</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mover accent="true">
+                     <m:mi>k</m:mi>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                   <m:mo form="infix">⋅</m:mo>
+                   <m:mover accent="true">
+                     <m:mi>r</m:mi>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                 </m:mrow>
+                 <m:mo form="infix">∓</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

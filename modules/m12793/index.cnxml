@@ -1,0 +1,1181 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Energy in a mechanical wave</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1cd0d561-e0ec-4382-872b-f4d66c96b197</md:uuid>
+</metadata>
+  <content>
+<section id="id6737818">
+<title>Energy Transport</title>
+<para id="id6356228">
+   
+
+   <figure id="id6359223"><media id="idp2468976" alt=""><image src="../../media/Energy-String.gif" mime-type="image/gif"/></media></figure>
+
+</para>
+<para id="id6758925">
+   Lets calculate the energy in a wave of a string:
+</para>
+<para id="id6758930">
+   Consider a fragment of string so small it can be considered straight, as is
+   shown in the figure
+</para>
+<para id="id6758936">
+   The the kinetic energy is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>K</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>m</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>v<m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mspace width="veryverythinmathspace"/>
+         <m:mn>2</m:mn>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   for the string fragment
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>m</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>μ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id6760142">
+   <note id="idm847936">
+   Why is this
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">ⅆ</m:mo>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   and not
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">ⅆ</m:mo>
+       <m:mi>s</m:mi>
+     </m:mrow>
+   </m:math>?
+   Lets consider that the string is not perturbed, then it is horizontal and has
+   mass as given. When the string is perturbed it stretches a little bit - but
+   the mass does not increase.
+</note></para>
+<para id="id6760187">So we have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>K</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>μ</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>y</m:mi>
+               </m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and using this we can define the energy per unit length, ie. the kinetic
+   energy density:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>K</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>μ</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>y</m:mi>
+               </m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   When the string segment is stretched from the length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">ⅆ</m:mo>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   to the length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">ⅆ</m:mo>
+       <m:mi>s</m:mi>
+     </m:mrow>
+   </m:math>
+   an amount of work
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>T</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>s</m:mi>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   is done. This is equal to the potential energy stored in the stretched string
+   segment. So the potential energy in this case is:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>U</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>T</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>s</m:mi>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Now
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>s</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:msup>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:msup>
+                           <m:mi>x</m:mi>
+                           <m:mn>2</m:mn>
+                         </m:msup>
+                       </m:mrow>
+                       <m:mo form="infix">+</m:mo>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:msup>
+                           <m:mi>y</m:mi>
+                           <m:mn>2</m:mn>
+                         </m:msup>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mn>1</m:mn>
+                     <m:mo form="infix">/</m:mo>
+                     <m:mn>2</m:mn>
+                   </m:mrow>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mrow>
+                     <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+                     <m:mrow>
+                       <m:mn>1</m:mn>
+                       <m:mo form="infix">+</m:mo>
+                       <m:msup>
+                         <m:mrow>
+                           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                           <m:mfrac>
+                             <m:mrow>
+                               <m:mo form="prefix">∂</m:mo>
+                               <m:mi>y</m:mi>
+                             </m:mrow>
+                             <m:mrow>
+                               <m:mo form="prefix">∂</m:mo>
+                               <m:mi>x</m:mi>
+                             </m:mrow>
+                           </m:mfrac>
+                           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                         </m:mrow>
+                         <m:mn>2</m:mn>
+                       </m:msup>
+                     </m:mrow>
+                     <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mn>1</m:mn>
+                     <m:mo form="infix">/</m:mo>
+                     <m:mn>2</m:mn>
+                   </m:mrow>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   Recall the binomial expansion
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mn>1</m:mn>
+             <m:mo form="infix">+</m:mo>
+             <m:mi>A</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mi>n</m:mi>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>1</m:mn>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>A</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mi>n</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>n</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mn>1</m:mn>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:msup>
+               <m:mi>A</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo form="postfix">!</m:mo>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mi>n</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>n</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mn>1</m:mn>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>n</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mn>2</m:mn>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mo/>
+             <m:msup>
+               <m:mi>A</m:mi>
+               <m:mn>3</m:mn>
+             </m:msup>
+           </m:mrow>
+           <m:mrow>
+             <m:mn>3</m:mn>
+             <m:mo form="postfix">!</m:mo>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>…</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix">ⅆ</m:mo>
+         <m:mi>s</m:mi>
+       </m:mrow>
+       <m:mo form="infix">≈</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:msup>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mo form="prefix">∂</m:mo>
+                   <m:mi>y</m:mi>
+                 </m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">∂</m:mo>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mfrac>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>U</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>T</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>s</m:mi>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">≈</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>T</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>y</m:mi>
+               </m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or the potential energy density
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>U</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>T</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>y</m:mi>
+               </m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   To get the kinetic energy in a wavelength, lets start with
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mi>λ</m:mi>
+               </m:mfrac>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>y</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mi>ω</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mi>λ</m:mi>
+               </m:mfrac>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Lets evaluate it at time 0.
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix"/>
+           <m:mfrac>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mi>y</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">|</m:mo>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>t</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>0</m:mn>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mi>ω</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mn>2</m:mn>
+                 <m:mo/>
+                 <m:mi>π</m:mi>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:mi>λ</m:mi>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>K</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>μ</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>ω</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>A</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:msup>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mn>2</m:mn>
+                 <m:mo/>
+                 <m:mi>π</m:mi>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:mi>λ</m:mi>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   now integrate
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>K</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mn>0</m:mn>
+                     <m:mi>λ</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:mi>K</m:mi>
+                       </m:mrow>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:mi>x</m:mi>
+                       </m:mrow>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mi>μ</m:mi>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>ω</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>A</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:msubsup>
+                     <m:mo form="prefix" largeop="true">∫</m:mo>
+                     <m:mn>0</m:mn>
+                     <m:mi>λ</m:mi>
+                   </m:msubsup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:msup>
+                         <m:mi mathcolor="gray">cos</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msup>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                         <m:mfrac>
+                           <m:mrow>
+                             <m:mn>2</m:mn>
+                             <m:mo/>
+                             <m:mi>π</m:mi>
+                             <m:mo/>
+                             <m:mi>x</m:mi>
+                           </m:mrow>
+                           <m:mi>λ</m:mi>
+                         </m:mfrac>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   In order to do this integral we use the following trig identity:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msup>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:mi>A</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mn>2</m:mn>
+               <m:mo/>
+               <m:mi>A</m:mi>
+             </m:mrow>
+           </m:mrow>
+           <m:mo form="infix">+</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   so we get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>K</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mn>1</m:mn>
+                     <m:mn>2</m:mn>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mi>μ</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>ω</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>A</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:msubsup>
+                     <m:mrow>
+                       <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+                       <m:mrow>
+                         <m:mfrac>
+                           <m:mi>x</m:mi>
+                           <m:mn>2</m:mn>
+                         </m:mfrac>
+                         <m:mo form="infix">+</m:mo>
+                         <m:mrow>
+                           <m:mfrac>
+                             <m:mi>λ</m:mi>
+                             <m:mrow>
+                               <m:mn>8</m:mn>
+                               <m:mo/>
+                               <m:mi>π</m:mi>
+                             </m:mrow>
+                           </m:mfrac>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mi mathcolor="gray">sin</m:mi>
+                             <m:mo/>
+                             <m:mfrac>
+                               <m:mrow>
+                                 <m:mn>4</m:mn>
+                                 <m:mo/>
+                                 <m:mi>π</m:mi>
+                                 <m:mo/>
+                                 <m:mi>x</m:mi>
+                               </m:mrow>
+                               <m:mi>λ</m:mi>
+                             </m:mfrac>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+                       <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">|</m:mo>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mi>x</m:mi>
+                       <m:mo form="infix">=</m:mo>
+                       <m:mn>0</m:mn>
+                     </m:mrow>
+                     <m:mi>λ</m:mi>
+                   </m:msubsup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>4</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mi>μ</m:mi>
+                 <m:mo/>
+                 <m:mi>λ</m:mi>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>ω</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>A</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id6763359">
+   In similar fashion the potential energy can be found to be
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>U</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>4</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>μ</m:mi>
+           <m:mo/>
+           <m:mi>λ</m:mi>
+           <m:mo/>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:msup>
+             <m:mi>A</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   Deriving this will be assigned as a homework problem
+</para>
+<para id="id6763460">
+   So
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>K</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>U</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>μ</m:mi>
+         <m:mo/>
+         <m:mi>λ</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>ω</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>A</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Power
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>P</m:mi>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mo form="prefix">Δ</m:mo>
+                     <m:mi>E</m:mi>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">Δ</m:mo>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mn>1</m:mn>
+                       <m:mn>2</m:mn>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mi>μ</m:mi>
+                     <m:mo/>
+                     <m:mi>λ</m:mi>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>ω</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>A</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mi>τ</m:mi>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mi>μ</m:mi>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>ω</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>A</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   Where I have used
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>τ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>1</m:mn>
+         <m:mo form="infix">/</m:mo>
+         <m:mi>ν</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>λ</m:mi>
+         <m:mo/>
+         <m:mi>ν</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+     </m:mrow>
+   </m:math>v
+   thus
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>τ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>λ</m:mi>
+         <m:mo form="infix">/</m:mo>
+         <m:mtext mathcolor="black">v</m:mtext>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

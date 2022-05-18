@@ -1,0 +1,1587 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>SingleSlitDiffraction.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fdb9e1bd-0fa2-46ee-b847-1c88769266eb</md:uuid>
+</metadata>
+  <content>
+<section id="id21658469">
+<title>Diffraction</title>
+<para id="id21685733">
+   Diffraction is an important characteristic of waves. It can be said to one of
+   the defining characteristics of a wave. It occurs when part of a wavefront is
+   obstructed. The parts of the wavefronts that propagate past the the obstacle
+   interfere and create a diffraction pattern. Diffraction and interference are
+   essentially the same physical process, resulting from the vector addition of
+   fields from different sources. By convention interference refers to only a few
+   sources and diffraction refers to many sources or a continuous
+   source.
+
+   <figure id="id15532418"><media id="idm1121888" alt=""><image src="../../media/single_slit.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id21641583">
+   When a plane wave hits an aperture, Huygens principle says that each point in
+   the aperture acts as a source of spherical wavelets. The maximum path length
+   difference of all these sources is between the top and the bottom.
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix">Δ</m:mo>
+         <m:msub>
+           <m:mi>r</m:mi>
+           <m:mrow>
+             <m:mi>m</m:mi>
+             <m:mo/>
+             <m:mi>a</m:mi>
+             <m:mo/>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:msub>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>a</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>The
+   waves start out in phase. If
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>a</m:mi>
+         <m:mo form="infix">&lt;</m:mo>
+         <m:mo form="infix">&lt;</m:mo>
+       </m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   then the slit acts as a point source and you get a spherical wave coming out.
+   If
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>a</m:mi>
+         <m:mo form="infix">&gt;</m:mo>
+         <m:mo form="infix">&gt;</m:mo>
+       </m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   then the aperture simply casts a bright spot the size of the aperture shadow.
+   But if
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>λ</m:mi>
+       <m:mo form="infix">≈</m:mo>
+       <m:mi>a</m:mi>
+     </m:mrow>
+   </m:math>
+   then an interference pattern is set up.When the resulting pattern is viewed
+   close to the aperture, the pattern can be very complex, and this is call
+   Fresnel diffraction. As the the pattern is viewed from further and further
+   away, it eventually stops changing shape and only grows in size. This is
+   Fraunhoffer diffraction.
+</para>
+<section id="id20498965">
+<title>Single Slit Diffraction</title>
+<para id="id16846762">
+   
+
+   <figure id="id16846770"><media id="idm7065744" alt=""><image src="../../media/Single-slit-detail.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id16846782">
+   Consider the contribution to the field
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   at a P due to a small element of the slit
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">ⅆ</m:mo>
+       <m:mi>y</m:mi>
+     </m:mrow>
+   </m:math>
+   at
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>y</m:mi>
+     </m:mrow>
+   </m:math>.
+   It is a distance
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>r</m:mi>
+     </m:mrow>
+   </m:math>
+   from P.
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>R</m:mi>
+     </m:mrow>
+   </m:math>
+   is the distance from the center of the slit to P.
+</para>
+<para id="id20285059">
+   lets define
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>ε</m:mi>
+         <m:mi>L</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   which is the source strength per unit length, which is a constant.
+</para>
+<para id="id20369710">
+   then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>d</m:mi>
+         <m:mo/>
+         <m:mi>E</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mi>L</m:mi>
+           </m:msub>
+           <m:mi>r</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>y</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>r</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21390508">
+   Now from the drawing
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>r</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mi>R</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>y</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mi mathcolor="gray">sin</m:mi>
+                             <m:mo/>
+                             <m:mi>θ</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo form="infix">+</m:mo>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mi>y</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">cos</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>y</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:msup>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>y</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:msup>
+                       <m:mi mathcolor="gray">cos</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msup>
+                   <m:mi>y</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                   <m:mo/>
+                   <m:mi>y</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+                   <m:mrow>
+                     <m:mn>1</m:mn>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mrow>
+                       <m:mfrac>
+                         <m:mrow>
+                           <m:mn>2</m:mn>
+                           <m:mo/>
+                           <m:mi>y</m:mi>
+                         </m:mrow>
+                         <m:mi>R</m:mi>
+                       </m:mfrac>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mi mathcolor="gray">sin</m:mi>
+                         <m:mo/>
+                         <m:mi>θ</m:mi>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mfrac>
+                       <m:msup>
+                         <m:mi>y</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msup>
+                       <m:msup>
+                         <m:mi>R</m:mi>
+                         <m:mn>2</m:mn>
+                       </m:msup>
+                     </m:mfrac>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   Now assume that
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo form="infix">&lt;</m:mo>
+         <m:mo form="infix">&lt;</m:mo>
+       </m:mrow>
+       <m:mi>R</m:mi>
+     </m:mrow>
+   </m:math>
+   (which gives us the Franhaufer condition) and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>r</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+             <m:mrow>
+               <m:mn>1</m:mn>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>y</m:mi>
+                   </m:mrow>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+           </m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   now expand the square root
+</para>
+<para id="id20280743">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>r</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mn>1</m:mn>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mi>y</m:mi>
+                 <m:mi>R</m:mi>
+               </m:mfrac>
+               <m:mo/>
+               <m:mrow>
+                 <m:mi mathcolor="gray">sin</m:mi>
+                 <m:mo/>
+                 <m:mi>θ</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mi>…</m:mi>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and neglect higher terms so that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>r</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mi>y</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mi>θ</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   thus
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>d</m:mi>
+         <m:mo/>
+         <m:mi>E</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mi>L</m:mi>
+           </m:msub>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mi>R</m:mi>
+                       <m:mo form="infix">−</m:mo>
+                       <m:mrow>
+                         <m:mi>y</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>y</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where now we have used R in the denominator since it is much bigger than y
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>d</m:mi>
+         <m:mo/>
+         <m:mi>E</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mi>L</m:mi>
+           </m:msub>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">−</m:mo>
+               <m:mi>i</m:mi>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>y</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:mi>θ</m:mi>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>y</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id17702729">
+   now integrate assuming that
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>θ</m:mi>
+     </m:mrow>
+   </m:math>
+   is a constant over the slit
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>E</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:msub>
+                       <m:mi>ε</m:mi>
+                       <m:mi>L</m:mi>
+                     </m:msub>
+                     <m:mi>R</m:mi>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>k</m:mi>
+                             <m:mo/>
+                             <m:mi>R</m:mi>
+                           </m:mrow>
+                           <m:mo form="infix">−</m:mo>
+                           <m:mrow>
+                             <m:mi>ω</m:mi>
+                             <m:mo/>
+                             <m:mi>t</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:msubsup>
+                       <m:mo form="prefix" largeop="true">∫</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mo form="prefix">−</m:mo>
+                           <m:mi>a</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">/</m:mo>
+                         <m:mn>2</m:mn>
+                       </m:mrow>
+                       <m:mrow>
+                         <m:mi>a</m:mi>
+                         <m:mo form="infix">/</m:mo>
+                         <m:mn>2</m:mn>
+                       </m:mrow>
+                     </m:msubsup>
+                     <m:mrow>
+                       <m:msup>
+                         <m:mi>e</m:mi>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mo form="prefix">−</m:mo>
+                             <m:mi>i</m:mi>
+                           </m:mrow>
+                           <m:mo/>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>y</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mi mathcolor="gray">sin</m:mi>
+                             <m:mo/>
+                             <m:mi>θ</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:msup>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo form="prefix">ⅆ</m:mo>
+                         <m:mi>y</m:mi>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>R</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mo form="prefix">−</m:mo>
+                         <m:mi>i</m:mi>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>k</m:mi>
+                       <m:mo/>
+                       <m:mi>y</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mi mathcolor="gray">sin</m:mi>
+                         <m:mo/>
+                         <m:mi>θ</m:mi>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>i</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+               <m:msubsup>
+                 <m:mo stretchy="false" fence="true" form="postfix">|</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>a</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">/</m:mo>
+                   <m:mn>2</m:mn>
+                 </m:mrow>
+                 <m:mrow>
+                   <m:mi>a</m:mi>
+                   <m:mo form="infix">/</m:mo>
+                   <m:mn>2</m:mn>
+                 </m:mrow>
+               </m:msubsup>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>R</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:msup>
+                       <m:mi>e</m:mi>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mo form="prefix">−</m:mo>
+                           <m:mi>i</m:mi>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:mfrac>
+                           <m:mrow>
+                             <m:mi>k</m:mi>
+                             <m:mo/>
+                             <m:mi>a</m:mi>
+                           </m:mrow>
+                           <m:mn>2</m:mn>
+                         </m:mfrac>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:msup>
+                     <m:mo form="infix">−</m:mo>
+                     <m:msup>
+                       <m:mi>e</m:mi>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mfrac>
+                           <m:mrow>
+                             <m:mi>k</m:mi>
+                             <m:mo/>
+                             <m:mi>a</m:mi>
+                           </m:mrow>
+                           <m:mn>2</m:mn>
+                         </m:mfrac>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>i</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>R</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mn>2</m:mn>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mfrac>
+                             <m:mrow>
+                               <m:mi>k</m:mi>
+                               <m:mo/>
+                               <m:mi>a</m:mi>
+                             </m:mrow>
+                             <m:mn>2</m:mn>
+                           </m:mfrac>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mi mathcolor="gray">sin</m:mi>
+                             <m:mo/>
+                             <m:mi>θ</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mi>i</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>R</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mfrac>
+                             <m:mrow>
+                               <m:mi>k</m:mi>
+                               <m:mo/>
+                               <m:mi>a</m:mi>
+                             </m:mrow>
+                             <m:mn>2</m:mn>
+                           </m:mfrac>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mi mathcolor="gray">sin</m:mi>
+                             <m:mo/>
+                             <m:mi>θ</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mi>k</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:msub>
+                       <m:mi>ε</m:mi>
+                       <m:mi>L</m:mi>
+                     </m:msub>
+                     <m:mo/>
+                     <m:mi>a</m:mi>
+                   </m:mrow>
+                   <m:mi>R</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>k</m:mi>
+                           <m:mo/>
+                           <m:mi>R</m:mi>
+                         </m:mrow>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mfrac>
+                           <m:mrow>
+                             <m:mi>k</m:mi>
+                             <m:mo/>
+                             <m:mi>a</m:mi>
+                           </m:mrow>
+                           <m:mn>2</m:mn>
+                         </m:mfrac>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mrow>
+                         <m:mi>k</m:mi>
+                         <m:mo/>
+                         <m:mi>a</m:mi>
+                       </m:mrow>
+                       <m:mn>2</m:mn>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id16316421">
+   now we define
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>β</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>a</m:mi>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and see that we can rewrite our expression as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>ε</m:mi>
+               <m:mi>L</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mi>a</m:mi>
+           </m:mrow>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mi>β</m:mi>
+           </m:mrow>
+           <m:mi>β</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or equivalently
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msub>
+               <m:mi>ε</m:mi>
+               <m:mi>L</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mi>a</m:mi>
+           </m:mrow>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>s</m:mi>
+         <m:mo/>
+         <m:mi>i</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>c</m:mi>
+         <m:mo/>
+         <m:mi>β</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id16859210">
+   The intensity will go like the square of this so
+</para>
+<para id="id16859214">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>I</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>I</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:mi>s</m:mi>
+         <m:mo/>
+         <m:mi>i</m:mi>
+         <m:mo/>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>c</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:mi>β</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21412121">
+   
+
+   
+      
+      
+         <figure id="id21412136"><media id="idp1537568" alt=""><image src="../../media/SingleSlitDiffraction__3.png" mime-type="image/png"/></media></figure>
+      
+      
+         
+            Plot of
+            <m:math display="inline">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mi>β</m:mi>
+         </m:mrow>
+         <m:msup>
+           <m:mi>β</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+         
+      
+
+
+
+</para>
+<para id="id20413316">
+   The Intensity has a maximum at
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>β</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>θ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>.
+   there are minima when
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:mi>β</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>β</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:mi>k</m:mi>
+             <m:mo/>
+             <m:mi>a</m:mi>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo/>
+             <m:mi>π</m:mi>
+           </m:mrow>
+           <m:mi>λ</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mi>a</m:mi>
+           <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>n</m:mi>
+         <m:mo/>
+         <m:mi>π</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:mi>θ</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mi>λ</m:mi>
+         </m:mrow>
+         <m:mi>a</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   in the case of small
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>θ</m:mi>
+     </m:mrow>
+   </m:math>
+   we see that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix">Δ</m:mo>
+         <m:mi>θ</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>λ</m:mi>
+         <m:mi>a</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   is the distance between adjacent minima.
+</para>
+<para id="id20562144">
+   As
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>a</m:mi>
+     </m:mrow>
+   </m:math>
+   becomes large, we see that the minima will merge together. This is consistent
+   with what we said at the beginning, that if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>a</m:mi>
+         <m:mo form="infix">&gt;</m:mo>
+         <m:mo form="infix">&gt;</m:mo>
+       </m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   then you just get shadowing but not diffraction.
+</para>
+<para id="id21415653">
+   Finding the secondary maxima is more difficult. (Take the derivative of I and
+   then look for zeros.) This can not be done analytically.
+</para>
+<para id="id21415659">
+   Note that wee have been considering only one dimension. If the length of the
+   slit is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>L</m:mi>
+     </m:mrow>
+   </m:math>
+   then we have only considered the case that
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>L</m:mi>
+         <m:mo form="infix">&gt;</m:mo>
+         <m:mo form="infix">&gt;</m:mo>
+       </m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   and so diffraction occurs only in the other dimension.
+</para>
+</section>
+</section>
+</content>
+</document>

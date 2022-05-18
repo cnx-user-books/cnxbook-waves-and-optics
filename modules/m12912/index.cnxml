@@ -1,0 +1,349 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>NewtonsRings.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>579cf08c-fd7e-4b03-ad86-56596b4131c1</md:uuid>
+</metadata>
+  <content>
+<section id="id16391865">
+<title>Newton's Rings</title>
+<para id="id20967554">
+   Consider a flat surface in contact with a spherical surface.
+   
+
+   <figure id="id21047698"><media id="idm1949520" alt=""><image src="../../media/Newtons-Rings.jpg" mime-type="image/jpeg"/></media></figure>
+
+</para>
+<para id="id16581861">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msup>
+           <m:mi>x</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo form="infix">+</m:mo>
+         <m:msup>
+           <m:mi>l</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21074838">
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:mi>l</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21074881">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>d</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>R</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo form="infix">+</m:mo>
+                   <m:msup>
+                     <m:mi>l</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>R</m:mi>
+                     <m:mo/>
+                     <m:mi>l</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msup>
+                   <m:mi>R</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">−</m:mo>
+                 <m:msup>
+                   <m:mi>x</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                   <m:mo/>
+                   <m:mi>l</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>R</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:msup>
+                   <m:mi>x</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mi>R</m:mi>
+                       <m:mo form="infix">−</m:mo>
+                       <m:mi>d</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>R</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:msup>
+                   <m:mi>x</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>R</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>R</m:mi>
+                   <m:mo/>
+                   <m:mi>d</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>R</m:mi>
+           <m:mo/>
+           <m:mi>d</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:msup>
+           <m:mi>d</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   For small
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   we have
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>d</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">→</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>x</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">≈</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mi>d</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21082178">
+   In this case there is no phase change at the spherical surface but there is at
+   the flat surface. So again there is an offset in the phase and the condition
+   of constructive interference is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>d</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>λ</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>  </m:mtext>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>3</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>5</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mi>…</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>d</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo form="infix">/</m:mo>
+           <m:mi>R</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>λ</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>  </m:mtext>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>n</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>3</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>5</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mi>…</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id21082461">
+   For a spherical interface one observes rings of light and dark. This in fact
+   is used to check the sphericity of the lenses.
+</para>
+</section>
+</content>
+</document>

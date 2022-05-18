@@ -1,0 +1,1696 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Simple Harmonic Oscillator</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>807dd522-5a6f-4ed6-8557-d994034556a6</md:uuid>
+</metadata>
+  <content>
+<section id="id13092092">
+<title>The Simple Harmonic Oscillator</title>
+<section id="id3039419">
+<title>Simple Harmonic Motion</title>
+<para id="id9784259">
+   For SHM to occur we require stable equilibrium, about a point. For example, at
+   the origin we could have:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix" largeop="true">∑</m:mo>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>F</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mn>0</m:mn>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mn>0</m:mn>
+       </m:mrow>
+       <m:mtext>,</m:mtext>
+     </m:mrow>
+   </m:math>which
+   would describe a system in equilibrium. This however is not necessarily stable
+   equilibrium.
+</para>
+<para id="id12377706">
+   
+
+   <figure id="id4575024"><media id="idp11074912" alt=""><image src="../../media/Stable-Unstable.png" mime-type="image/png"/></media><caption>A simple cartoon of stable and unstable equilibrium.  The lower part of the figure shows the case of unstable equilibrium. The upper part shows the case of stable equilibrium. These situations often occur in mechanical systems.</caption>
+</figure>
+
+</para>
+
+<para id="id2778650">
+   The lower part of the figure shows the case of unstable equilibrium. The upper
+   part shows the case of stable equilibrium. These situations often occur in
+   mechanical systems.
+</para>
+<para id="id13229174">
+   For example, consider a mass attached to a spring:
+</para>
+<para id="id2788670">
+   
+
+   <figure id="id7807250"><media id="idp7785744" alt=""><image src="../../media/spring_scaled.png" mime-type="image/png"/></media></figure>
+
+
+</para>
+<para id="id9047302">
+   In general, in a case of stable equilibrium we can write the force as a
+   polynomial expansion:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>F</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>x</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix">−</m:mo>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>k</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>k</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msup>
+                 <m:mi>x</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>k</m:mi>
+                 <m:mn>3</m:mn>
+               </m:msub>
+               <m:mo/>
+               <m:msup>
+                 <m:mi>x</m:mi>
+                 <m:mn>3</m:mn>
+               </m:msup>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mi>…</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   the
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>k</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   are positive constants. There is always a region of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   small enough that we can write:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>F</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:mi>k</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>F</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>k</m:mi>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:mi>a</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>k</m:mi>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:mover accent="true">
+                     <m:mi>x</m:mi>
+                     <m:mo accent="true" form="postfix">¨</m:mo>
+                   </m:mover>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:mi>k</m:mi>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mover accent="true">
+                     <m:mi>x</m:mi>
+                     <m:mo accent="true" form="postfix">¨</m:mo>
+                   </m:mover>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:mi>k</m:mi>
+                       <m:mi>m</m:mi>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mi>x</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mn>0</m:mn>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   This is satisfied by an equation of the form
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo form="infix">+</m:mo>
+               <m:msub>
+                 <m:mi>φ</m:mi>
+                 <m:mn>0</m:mn>
+               </m:msub>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>φ</m:mi>
+         <m:mn>0</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   are constants that are determined by the initial conditions. 
+   Draw a diagram of a sinusoid and mark on it the period T and Amplitude A
+</para>
+<para id="id3645367">
+   
+
+   <figure id="id6617018"><media id="idp14011360" alt=""><image src="../../media/Sinusoid.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id7648645">
+   
+</para>
+<para id="id6164085"><m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>φ</m:mi>
+         <m:mn>0</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   Is an arbitrary phase which shifts the sinusoid.This is also
+   satisfied by an equation of the form
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>B</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Lets
+   show this:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>A</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mi>B</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">cos</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mi>ω</m:mi>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mi>x</m:mi>
+                   <m:mo accent="true" form="postfix">˙</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>A</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">cos</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mrow>
+                               <m:mi>ω</m:mi>
+                               <m:mo/>
+                               <m:mi>t</m:mi>
+                             </m:mrow>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo form="infix">−</m:mo>
+                       <m:mrow>
+                         <m:mi>B</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mrow>
+                               <m:mi>ω</m:mi>
+                               <m:mo/>
+                               <m:mi>t</m:mi>
+                             </m:mrow>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mi>x</m:mi>
+                   <m:mo accent="true" form="postfix">¨</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:msup>
+                       <m:mi>ω</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>A</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mrow>
+                             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                             <m:mrow>
+                               <m:mi>ω</m:mi>
+                               <m:mo/>
+                               <m:mi>t</m:mi>
+                             </m:mrow>
+                             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo form="infix">+</m:mo>
+                       <m:mrow>
+                         <m:mi>B</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">cos</m:mi>
+                           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                           <m:mrow>
+                             <m:mi>ω</m:mi>
+                             <m:mo/>
+                             <m:mi>t</m:mi>
+                           </m:mrow>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mi>x</m:mi>
+                   <m:mo accent="true" form="postfix">¨</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:msup>
+                       <m:mi>ω</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>Again
+   there are two constants determined by the initial conditions
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>A</m:mi>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>B</m:mi>
+     </m:mrow>
+   </m:math>
+   The equation can be rewritten
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>x</m:mi>
+           <m:mo accent="true" form="postfix">¨</m:mo>
+         </m:mover>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>Thus
+   if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>ω</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>k</m:mi>
+         <m:mi>m</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>then
+   the equation is identical to the SHM equation. 
+</para>
+<para id="id3720360">
+   So another way to write the equation of Simple Harmonic Motion is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>x</m:mi>
+           <m:mo accent="true" form="postfix">¨</m:mo>
+         </m:mover>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">¨</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>x</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id3790844">
+   It is also important to remember the relationships between freqency, angular
+   frequency and period:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                   <m:mo/>
+                   <m:mi>ν</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>T</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>π</m:mi>
+                   </m:mrow>
+                   <m:mi>ω</m:mi>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>ν</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:mi>T</m:mi>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id11430320">
+   Another solution to the SHM equation is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˜</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Recall Taylor's expansions of sine and cosine
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">sin</m:mi>
+         <m:mo/>
+         <m:mi>θ</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>θ</m:mi>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>θ</m:mi>
+             <m:mn>3</m:mn>
+           </m:msup>
+           <m:mrow>
+             <m:mn>3</m:mn>
+             <m:mo form="postfix">!</m:mo>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:msup>
+               <m:mi>θ</m:mi>
+               <m:mn>5</m:mn>
+             </m:msup>
+             <m:mrow>
+               <m:mn>5</m:mn>
+               <m:mo form="postfix">!</m:mo>
+             </m:mrow>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>…</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi mathcolor="gray">cos</m:mi>
+         <m:mo/>
+         <m:mi>θ</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>1</m:mn>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>θ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo form="postfix">!</m:mo>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:msup>
+               <m:mi>θ</m:mi>
+               <m:mn>4</m:mn>
+             </m:msup>
+             <m:mrow>
+               <m:mn>4</m:mn>
+               <m:mo form="postfix">!</m:mo>
+             </m:mrow>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>…</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">cos</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                   <m:maligngroup/>
+                   <m:mo form="infix">+</m:mo>
+                   <m:maligngroup/>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mn>1</m:mn>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mfrac>
+                     <m:msup>
+                       <m:mi>θ</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                     <m:mrow>
+                       <m:mn>2</m:mn>
+                       <m:mo form="postfix">!</m:mo>
+                     </m:mrow>
+                   </m:mfrac>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mfrac>
+                       <m:msup>
+                         <m:mi>θ</m:mi>
+                         <m:mn>3</m:mn>
+                       </m:msup>
+                       <m:mrow>
+                         <m:mn>3</m:mn>
+                         <m:mo form="postfix">!</m:mo>
+                       </m:mrow>
+                     </m:mfrac>
+                   </m:mrow>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mfrac>
+                       <m:msup>
+                         <m:mi>θ</m:mi>
+                         <m:mn>4</m:mn>
+                       </m:msup>
+                       <m:mrow>
+                         <m:mn>4</m:mn>
+                         <m:mo form="postfix">!</m:mo>
+                       </m:mrow>
+                     </m:mfrac>
+                     <m:mo/>
+                     <m:mi>…</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mn>1</m:mn>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:mi>i</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mfrac>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>θ</m:mi>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo form="postfix">!</m:mo>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mfrac>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>θ</m:mi>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>3</m:mn>
+                   </m:msup>
+                   <m:mrow>
+                     <m:mn>3</m:mn>
+                     <m:mo form="postfix">!</m:mo>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:msup>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mi>i</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                       <m:mn>4</m:mn>
+                     </m:msup>
+                     <m:mrow>
+                       <m:mn>4</m:mn>
+                       <m:mo form="postfix">!</m:mo>
+                     </m:mrow>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mi>…</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:maligngroup/>
+               <m:msup>
+                 <m:mi>e</m:mi>
+                 <m:mrow>
+                   <m:mi>i</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:msup>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id11428503">
+   (an alternative way to show this is the following)
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>z</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">≡</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">cos</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mi mathcolor="gray">sin</m:mi>
+                       <m:mo/>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">ⅆ</m:mo>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mo form="prefix">−</m:mo>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">sin</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                       <m:mo form="infix">+</m:mo>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mrow>
+                           <m:mi mathcolor="gray">cos</m:mi>
+                           <m:mo/>
+                           <m:mi>θ</m:mi>
+                         </m:mrow>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo form="prefix">ⅆ</m:mo>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>i</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo form="prefix">ⅆ</m:mo>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∫</m:mo>
+                   <m:mfrac>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>z</m:mi>
+                     </m:mrow>
+                     <m:mi>z</m:mi>
+                   </m:mfrac>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∫</m:mo>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>θ</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">ln</m:mi>
+                   <m:mo/>
+                   <m:mi>z</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mi>i</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>z</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:msup>
+                   <m:mi>e</m:mi>
+                   <m:mrow>
+                     <m:mi>i</m:mi>
+                     <m:mo/>
+                     <m:mi>θ</m:mi>
+                   </m:mrow>
+                 </m:msup>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id3437191">
+   Thus we can write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˜</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>x</m:mi>
+         <m:mo accent="true" form="postfix">˜</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mi>x</m:mi>
+                   <m:mo accent="true" form="postfix">˜</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mi>A</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>ω</m:mi>
+                             <m:mo/>
+                             <m:mi>t</m:mi>
+                           </m:mrow>
+                           <m:mo form="infix">+</m:mo>
+                           <m:msub>
+                             <m:mi>φ</m:mi>
+                             <m:mn>0</m:mn>
+                           </m:msub>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mover accent="true">
+                     <m:mi>x</m:mi>
+                     <m:mo accent="true" form="postfix">˜</m:mo>
+                   </m:mover>
+                   <m:mo accent="true" form="postfix">˙</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:mi>i</m:mi>
+                   <m:mo/>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>A</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>ω</m:mi>
+                             <m:mo/>
+                             <m:mi>t</m:mi>
+                           </m:mrow>
+                           <m:mo form="infix">+</m:mo>
+                           <m:msub>
+                             <m:mi>φ</m:mi>
+                             <m:mn>0</m:mn>
+                           </m:msub>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mover accent="true">
+                   <m:mover accent="true">
+                     <m:mi>x</m:mi>
+                     <m:mo accent="true" form="postfix">˜</m:mo>
+                   </m:mover>
+                   <m:mo accent="true" form="postfix">¨</m:mo>
+                 </m:mover>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>ω</m:mi>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                     <m:mn>2</m:mn>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mi>A</m:mi>
+                   <m:mo/>
+                   <m:msup>
+                     <m:mi>e</m:mi>
+                     <m:mrow>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>ω</m:mi>
+                             <m:mo/>
+                             <m:mi>t</m:mi>
+                           </m:mrow>
+                           <m:mo form="infix">+</m:mo>
+                           <m:msub>
+                             <m:mi>φ</m:mi>
+                             <m:mn>0</m:mn>
+                           </m:msub>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:msup>
+                 </m:mrow>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">−</m:mo>
+                     <m:msup>
+                       <m:mi>ω</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mover accent="true">
+                     <m:mi>x</m:mi>
+                     <m:mo accent="true" form="postfix">˜</m:mo>
+                   </m:mover>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   <note id="idp15447040">We will use the complex representation a lot, so you need to
+   become familiar with it. It is used a lot in Optics, Classical and Quantum
+   Mechanics and Electrical Engineering so it is a good thing to know.
+</note>   
+Now for physical systems we are interested in just the real
+   part so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>R</m:mi>
+         <m:mo/>
+         <m:mi>e</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mi>A</m:mi>
+             <m:mo/>
+             <m:msup>
+               <m:mi>e</m:mi>
+               <m:mrow>
+                 <m:mi>i</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>ω</m:mi>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo form="infix">+</m:mo>
+                     <m:msub>
+                       <m:mi>φ</m:mi>
+                       <m:mn>0</m:mn>
+                     </m:msub>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+             </m:msup>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>This
+   will be implicitly understood. In physics we just write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:msub>
+                   <m:mi>φ</m:mi>
+                   <m:mn>0</m:mn>
+                 </m:msub>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   One thing that will seem to be confusing is that there are all these different
+   solutions. They are all just different forms of the same thing. Which form is
+   used in a particular circumstance is simply a matter of convenience. Some
+   forms lend themselves to to solutions of certain problems more easily than
+   others. Also the most convenient form can depend upon the initial conditions.
+   For example if
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   is at its maximum displacement at time
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>t</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   then a
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi mathcolor="gray">cos</m:mi>
+     </m:mrow>
+   </m:math>
+   form may be the most convenient. As a general rule I like using the complex
+   representation because natural logarithms are so easy to work with. For
+   example
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mi>x</m:mi>
+           </m:msup>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mi>e</m:mi>
+         <m:mi>x</m:mi>
+       </m:msup>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>a</m:mi>
+               <m:mo/>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:msup>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>a</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>a</m:mi>
+             <m:mo/>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∫</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>e</m:mi>
+             <m:mrow>
+               <m:mi>a</m:mi>
+               <m:mo/>
+               <m:mi>x</m:mi>
+             </m:mrow>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mi>a</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>a</m:mi>
+             <m:mo/>
+             <m:mi>x</m:mi>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>which
+   is all pretty simple to remember
+</para>
+
+
+
+
+
+</section>
+</section>
+</content>
+</document>

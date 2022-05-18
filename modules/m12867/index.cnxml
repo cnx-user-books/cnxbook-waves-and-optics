@@ -1,0 +1,895 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 18.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>aeddbc7e-7da6-4622-8532-07f7bdc1567a</md:uuid>
+</metadata>
+  <content>
+<section id="id8350669">
+<title>Gauss' Law</title>
+<para id="id8451021">
+   Now recall that flux is the scalar product of a vector field and a bit of
+   surface<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>F</m:mi>
+         <m:mo/>
+         <m:mi>l</m:mi>
+         <m:mo/>
+         <m:mi>u</m:mi>
+         <m:mo/>
+         <m:mi>x</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mi>F</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>a</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>F</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   is some vector field and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>a</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   is a surface with the direction defined by the normal to the surface.  For a
+   series of connected surfaces
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>a</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>j</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   the total flux through the combined surface would be the sum of the individual
+   elements. For a vector field
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   passing through the surface this leads to
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>Φ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∑</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mi>j</m:mi>
+           </m:msub>
+           <m:mo form="infix">⋅</m:mo>
+           <m:msub>
+             <m:mover accent="true">
+               <m:mi>a</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mi>j</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or when we go to infinitesimal areas
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>Φ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mrow>
+             <m:mi>s</m:mi>
+             <m:mo/>
+             <m:mi>u</m:mi>
+             <m:mo/>
+             <m:mi>r</m:mi>
+             <m:mo/>
+             <m:mi>f</m:mi>
+             <m:mo/>
+             <m:mi>a</m:mi>
+             <m:mo/>
+             <m:mi>c</m:mi>
+             <m:mo/>
+             <m:mi>e</m:mi>
+           </m:mrow>
+         </m:msub>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>a</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Now lets consider a charge
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>q</m:mi>
+     </m:mrow>
+   </m:math>
+   in the middle of a sphere
+</para>
+<para id="id8345195">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>Φ</m:mi>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∮</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mover accent="true">
+                         <m:mi>E</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                       <m:mo form="infix">⋅</m:mo>
+                       <m:mi>d</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mover accent="true">
+                       <m:mi>a</m:mi>
+                       <m:mo accent="true" form="postfix">⃗</m:mo>
+                     </m:mover>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∮</m:mo>
+                   <m:mrow>
+                     <m:mi>E</m:mi>
+                     <m:mo form="infix">⋅</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">ⅆ</m:mo>
+                       <m:mi>a</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mi>E</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∮</m:mo>
+                   <m:mrow>
+                     <m:mo form="prefix">ⅆ</m:mo>
+                     <m:mi>a</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mi>E</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mn>4</m:mn>
+                     <m:mo/>
+                     <m:mi>π</m:mi>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mi>r</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   but
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>E</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>q</m:mi>
+         </m:mrow>
+         <m:msup>
+           <m:mi>r</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>Φ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>4</m:mn>
+         <m:mo/>
+         <m:mi>π</m:mi>
+         <m:mo/>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:mi>q</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>ε</m:mi>
+         <m:mn>0</m:mn>
+       </m:msub>
+       <m:mo form="infix">≡</m:mo>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+           <m:mn>4</m:mn>
+           <m:mo/>
+           <m:mi>π</m:mi>
+           <m:mo/>
+           <m:mi>k</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   So for this case we get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>a</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>q</m:mi>
+         <m:msub>
+           <m:mi>ε</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   We can generalize this to any closed surface. It is clear that for an
+   arbitrary closed source, we can draw a sphere around the source within the
+   arbitrary surface.. Think of bullets being fired from a gun, it is clear that
+   the bullets originating in the inner sphere all pass through the outer surface
+   and so one would expect that the flux would be the same.  For example consider
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>a</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   to be a patch on the inner sphere and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>A</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   to be its projection onto the outer arbitrary surface (with its normal making
+   an angle
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>θ</m:mi>
+     </m:mrow>
+   </m:math> with
+   respect to the normal to
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>a</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id6166058">
+   On the inner patch
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>Φ</m:mi>
+         <m:mi>r</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mover accent="true">
+             <m:mi>E</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mi>r</m:mi>
+         </m:msub>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>a</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>E</m:mi>
+           <m:mi>r</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mi>a</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and at the outer patch
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>Φ</m:mi>
+                   <m:mi>R</m:mi>
+                 </m:msub>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msub>
+                     <m:mover accent="true">
+                       <m:mi>E</m:mi>
+                       <m:mo accent="true" form="postfix">⃗</m:mo>
+                     </m:mover>
+                     <m:mi>R</m:mi>
+                   </m:msub>
+                   <m:mo form="infix">⋅</m:mo>
+                   <m:mover accent="true">
+                     <m:mi>A</m:mi>
+                     <m:mo accent="true" form="postfix">⃗</m:mo>
+                   </m:mover>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>E</m:mi>
+                   <m:mi>R</m:mi>
+                 </m:msub>
+                 <m:mo/>
+                 <m:mi>A</m:mi>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">cos</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+                   <m:mrow>
+                     <m:msub>
+                       <m:mi>E</m:mi>
+                       <m:mi>r</m:mi>
+                     </m:msub>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mrow>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                         <m:mfrac>
+                           <m:mi>r</m:mi>
+                           <m:mi>R</m:mi>
+                         </m:mfrac>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+                   <m:mrow>
+                     <m:mi>a</m:mi>
+                     <m:mo/>
+                     <m:msup>
+                       <m:mrow>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                         <m:mfrac>
+                           <m:mi>R</m:mi>
+                           <m:mi>r</m:mi>
+                         </m:mfrac>
+                         <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                       <m:mn>2</m:mn>
+                     </m:msup>
+                     <m:mo/>
+                     <m:mfrac>
+                       <m:mn>1</m:mn>
+                       <m:mrow>
+                         <m:mi mathcolor="gray">cos</m:mi>
+                         <m:mo/>
+                         <m:mi>θ</m:mi>
+                       </m:mrow>
+                     </m:mfrac>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">cos</m:mi>
+                   <m:mo/>
+                   <m:mi>θ</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>E</m:mi>
+                   <m:mi>r</m:mi>
+                 </m:msub>
+                 <m:mo/>
+                 <m:mi>a</m:mi>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:msub>
+                 <m:mi>Φ</m:mi>
+                 <m:mi>r</m:mi>
+               </m:msub>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   So the two have equivalent fluxes.
+</para>
+<para id="id7427395">
+   Any electric field is the sum of fields of its individual sources so we can
+   write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>Φ</m:mi>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∮</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mover accent="true">
+                         <m:mi>E</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                       <m:mo form="infix">⋅</m:mo>
+                       <m:mi>d</m:mi>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mover accent="true">
+                       <m:mi>a</m:mi>
+                       <m:mo accent="true" form="postfix">⃗</m:mo>
+                     </m:mover>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mo form="prefix" largeop="true">∮</m:mo>
+                   <m:mrow>
+                     <m:munder>
+                       <m:mo movablelimits="true" form="prefix" largeop="true">∑</m:mo>
+                       <m:mi>i</m:mi>
+                     </m:munder>
+                     <m:mrow>
+                       <m:msub>
+                         <m:mover accent="true">
+                           <m:mi>E</m:mi>
+                           <m:mo accent="true" form="postfix">⃗</m:mo>
+                         </m:mover>
+                         <m:mi>i</m:mi>
+                       </m:msub>
+                       <m:mo/>
+                       <m:mi>d</m:mi>
+                       <m:mo/>
+                       <m:mover accent="true">
+                         <m:mi>a</m:mi>
+                         <m:mo accent="true" form="postfix">⃗</m:mo>
+                       </m:mover>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mn>1</m:mn>
+                   <m:msub>
+                     <m:mi>ε</m:mi>
+                     <m:mn>0</m:mn>
+                   </m:msub>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:munder>
+                     <m:mo movablelimits="true" form="prefix" largeop="true">∑</m:mo>
+                     <m:mi>i</m:mi>
+                   </m:munder>
+                   <m:msub>
+                     <m:mi>q</m:mi>
+                     <m:mi>i</m:mi>
+                   </m:msub>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   or for charge distributed throughout the volume
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>a</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mrow>
+             <m:mi>ρ</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>V</m:mi>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id8361430">
+   Now we can apply Gauss' Theorem
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>a</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∫</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mo form="prefix">∇</m:mo>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>V</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mrow>
+             <m:mi>ρ</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>V</m:mi>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id7172036">
+   The equation
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∫</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mo form="prefix">∇</m:mo>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mover accent="true">
+               <m:mi>E</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>V</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msub>
+             <m:mi>ε</m:mi>
+             <m:mn>0</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mrow>
+             <m:mi>ρ</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>V</m:mi>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   must be true for any volume of any size, shape or location.
+   The only way that can be true is if:
+</para>
+<para id="id8406799">
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mo form="prefix">∇</m:mo>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>ρ</m:mi>
+         <m:msub>
+           <m:mi>ε</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   Initially one may think that this is a much less clear way of posing Gauss'
+   Law.  In practice it is much more useful than the integral form.  Given an
+   arbitrary distribution of charge we can calculate the electric field anywhere
+   in space.
+</para>
+</section>
+<section id="id7268420">
+<title>Gauss' Law for Magnetism</title>
+<para id="id7279730">
+   We can consider the same arguments for magnetic fields however there is one
+   major difference! There are no isolated source of magnetism. That is there are
+   no magnetic monopoles. This is an experimental fact. In fact people continue
+   to search for them but they have never been found. (Finding one would almost
+   certainly be a discovery worthy of a Nobel Prize).  So we
+   have<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix" largeop="true">∮</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mover accent="true">
+               <m:mi>B</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mo form="infix">⋅</m:mo>
+             <m:mi>d</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mover accent="true">
+             <m:mi>a</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mover accent="true">
+           <m:mo form="prefix">∇</m:mo>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mo form="infix">⋅</m:mo>
+         <m:mover accent="true">
+           <m:mi>B</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0.</m:mn>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

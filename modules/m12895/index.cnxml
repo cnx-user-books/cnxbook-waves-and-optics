@@ -1,0 +1,507 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 30.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>93ab7eae-7317-49f7-961e-24759e1660f9</md:uuid>
+</metadata>
+  <content>
+<section id="id14186957">
+<title>Fermat's principle of least time</title>
+<para id="id16601889">
+   Fermat postulated that rays of light follow the path that takes the least
+   time. This is a very profound idea! There is something very deep in it. It
+   also gives the experimentally observed results! Lets apply it to reflection
+   and see what results:
+   
+
+   <figure id="id16067451"><media id="idm689184" alt=""><image src="../../media/Fermat-Reflection.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id16179929">
+   We want to find the length (which is the same as time times the speed) AEB. To
+   do this we construct a fake point B' which is on the other side of the surface
+   the same perpendicular distance from the surface such that the line BB' is a
+   perpendicular to the surface. Then clearly the length AEB equals the length
+   AEB'. So which point on the surface gives the shortest path to B, the one that
+   gives the shortest path to B' and that clearly lies on the straight line AB'.
+   I have labeled this point C.
+</para>
+<para id="id16179933">
+   Now clearly
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>r</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msubsup>
+         <m:mi>θ</m:mi>
+         <m:mi>r</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msubsup>
+     </m:mrow>
+   </m:math>
+   and also
+   <m:math display="inline">
+     <m:mrow>
+       <m:msubsup>
+         <m:mi>θ</m:mi>
+         <m:mi>r</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msubsup>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   so we get
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>r</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>θ</m:mi>
+         <m:mi>i</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id13833063">
+   Now lets apply Fermat's principle to refraction. Look at the next
+   figure:
+
+   <figure id="id15205669"><media id="idm627776" alt=""><image src="../../media/Fermat-Refraction.png" mime-type="image/png"/></media></figure>
+
+
+   We want the shortest time from A to B. Clearly that is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>t</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msqrt>
+             <m:msup>
+               <m:mi>h</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mo form="infix">+</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:msqrt>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msqrt>
+             <m:msup>
+               <m:mi>b</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mo form="infix">+</m:mo>
+             <m:msup>
+               <m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mi>a</m:mi>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:msqrt>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   To find the minimum we want to solve for
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   such that
+   <m:math display="inline">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>
+   Thus
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mi>x</m:mi>
+           <m:mrow>
+             <m:msub>
+               <m:mi>v</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:msqrt>
+               <m:msup>
+                 <m:mi>h</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo form="infix">+</m:mo>
+               <m:msup>
+                 <m:mi>x</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:msqrt>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mi>a</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:msub>
+               <m:mi>v</m:mi>
+               <m:mi>t</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:msqrt>
+               <m:msup>
+                 <m:mi>b</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo form="infix">+</m:mo>
+               <m:msup>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mi>a</m:mi>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mi>x</m:mi>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:msqrt>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>which
+   is obviously
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>v</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:msub>
+           <m:mi>v</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>or
+   Snell's law
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>t</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>t</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>θ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id16105711">
+   If light travels via many different media then the time is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>t</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:msub>
+             <m:mi>v</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mi>⋯</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:msub>
+               <m:mi>d</m:mi>
+               <m:mi>m</m:mi>
+             </m:msub>
+             <m:msub>
+               <m:mi>v</m:mi>
+               <m:mi>m</m:mi>
+             </m:msub>
+           </m:mfrac>
+           <m:mo form="postfix">+</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>or
+   we can rewrite this as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>t</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mi>c</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:munderover>
+             <m:mo movablelimits="true" form="prefix" largeop="true">∑</m:mo>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo form="infix">=</m:mo>
+               <m:mn>1</m:mn>
+             </m:mrow>
+             <m:mi>m</m:mi>
+           </m:munderover>
+           <m:mrow>
+             <m:msub>
+               <m:mi>n</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:msub>
+               <m:mi>d</m:mi>
+               <m:mi>i</m:mi>
+             </m:msub>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>The
+   quantity
+   <m:math display="inline">
+     <m:mrow>
+       <m:munderover>
+         <m:mo movablelimits="true" form="prefix" largeop="true">∑</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mi>m</m:mi>
+       </m:munderover>
+       <m:mrow>
+         <m:msub>
+           <m:mi>n</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   is the optical path length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+       <m:mrow>
+         <m:mi>O</m:mi>
+         <m:mo/>
+         <m:mi>P</m:mi>
+         <m:mo/>
+         <m:mi>L</m:mi>
+       </m:mrow>
+       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+     </m:mrow>
+   </m:math>.
+   For a continuously varying medium then the summation becomes (for light
+   traveling from
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>S</m:mi>
+     </m:mrow>
+   </m:math>
+   to
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>P</m:mi>
+     </m:mrow>
+   </m:math>)
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>O</m:mi>
+         <m:mo/>
+         <m:mi>P</m:mi>
+         <m:mo/>
+         <m:mi>L</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msubsup>
+           <m:mo form="prefix" largeop="true">∫</m:mo>
+           <m:mi>S</m:mi>
+           <m:mi>P</m:mi>
+         </m:msubsup>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>n</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mi>s</m:mi>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:mi>s</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Fermat's
+   principle could be restated that we minimize the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>O</m:mi>
+       <m:mo/>
+       <m:mi>P</m:mi>
+       <m:mo/>
+       <m:mi>L</m:mi>
+     </m:mrow>
+   </m:math>
+   In fact this is inadequate, for example one can construct an example where the
+   optical path length is not the minimum.(See for example figure 4.37 in the
+   book "Optics" by Hecht (Fourth Edition).The correct statement of Fermat's
+   principle is that there is a stationary point in the optical path length. (Ie.
+   its derivative is zero).
+</para>
+</section>
+</content>
+</document>

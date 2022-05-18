@@ -1,0 +1,697 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thin Film Interference</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1d4a6d88-625b-4ccd-8b50-3df7e4a664bb</md:uuid>
+</metadata>
+  <content>
+<section id="id35356080">
+<title>Interference</title>
+<section id="id29976786">
+<title>Thin Films</title>
+<para id="id12409091">
+   Suppose there is a very thin film of dielectric and light is incident on it
+   normally. Lets consider single reflections. (We make the small angle of
+   incidence approximation)
+</para>
+<para id="id35758497">
+   
+
+   <figure id="id35839210"><media id="idm143936" alt=""><image src="../../media/Thin-film.jpg" mime-type="image/jpeg"/></media></figure>
+
+We
+   will assume
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>3</m:mn>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   The physical path length difference of the reflected light is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mo form="prefix">Δ</m:mo>
+         <m:mi>r</m:mi>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>d</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math>.
+   We will get maxima in the interference when:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">Δ</m:mo>
+           <m:mi>r</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>d</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:msub>
+             <m:mi>λ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>  </m:mtext>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>2</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mrow>
+           <m:mn>3</m:mn>
+           <m:mo/>
+           <m:mi>…</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>λ</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is the wavelength in the film. Now
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>λ</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:msub>
+             <m:mi>ν</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>c</m:mi>
+           <m:mo form="infix">/</m:mo>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mi>i</m:mi>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   In our example we have
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>ν</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>ν</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>ν</m:mi>
+         <m:mn>3</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>,
+   that is the frequency does not change moving between the media. So we have
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>λ</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>λ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>λ</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mn>3</m:mn>
+           </m:msub>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   Thus constructive interference will happen when
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:msub>
+                   <m:mi>λ</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msub>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mn>1</m:mn>
+                   </m:msub>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mn>1</m:mn>
+                     </m:msub>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msub>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>d</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mn>2</m:mn>
+                   </m:msub>
+                 </m:mrow>
+               </m:mrow>
+               <m:mtext> </m:mtext>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo form="infix">=</m:mo>
+                   <m:mn>1</m:mn>
+                 </m:mrow>
+                 <m:mo form="infix">,</m:mo>
+                 <m:mn>2</m:mn>
+                 <m:mo form="infix">,</m:mo>
+                 <m:mrow>
+                   <m:mn>3</m:mn>
+                   <m:mo form="infix">.</m:mo>
+                   <m:mtext>.</m:mtext>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>d</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mn>1</m:mn>
+                   </m:msub>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mn>1</m:mn>
+                     </m:msub>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mn>2</m:mn>
+                     </m:msub>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>d</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mrow>
+                       <m:mi>a</m:mi>
+                       <m:mo/>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mi>r</m:mi>
+                     </m:mrow>
+                   </m:msub>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mrow>
+                         <m:mi>a</m:mi>
+                         <m:mo/>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>r</m:mi>
+                       </m:mrow>
+                     </m:msub>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mrow>
+                         <m:mi>f</m:mi>
+                         <m:mo/>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>l</m:mi>
+                         <m:mo/>
+                         <m:mi>m</m:mi>
+                       </m:mrow>
+                     </m:msub>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>d</m:mi>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mn>1</m:mn>
+                   </m:msub>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:mn>1</m:mn>
+                     <m:msub>
+                       <m:mi>n</m:mi>
+                       <m:mrow>
+                         <m:mi>f</m:mi>
+                         <m:mo/>
+                         <m:mi>i</m:mi>
+                         <m:mo/>
+                         <m:mi>l</m:mi>
+                         <m:mo/>
+                         <m:mi>m</m:mi>
+                       </m:mrow>
+                     </m:msub>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mn>2</m:mn>
+                       <m:mo/>
+                       <m:mi>d</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>n</m:mi>
+                     <m:mrow>
+                       <m:mi>f</m:mi>
+                       <m:mo/>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mi>l</m:mi>
+                       <m:mo/>
+                       <m:mi>m</m:mi>
+                     </m:mrow>
+                   </m:msub>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>λ</m:mi>
+                     <m:mrow>
+                       <m:mi>a</m:mi>
+                       <m:mo/>
+                       <m:mi>i</m:mi>
+                       <m:mo/>
+                       <m:mi>r</m:mi>
+                     </m:mrow>
+                   </m:msub>
+                 </m:mrow>
+               </m:mrow>
+               <m:mtext> </m:mtext>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>m</m:mi>
+                   <m:mo form="infix">=</m:mo>
+                   <m:mn>1</m:mn>
+                 </m:mrow>
+                 <m:mo form="infix">,</m:mo>
+                 <m:mn>2</m:mn>
+                 <m:mo form="infix">,</m:mo>
+                 <m:mrow>
+                   <m:mn>3</m:mn>
+                   <m:mo/>
+                   <m:mi>…</m:mi>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mrow>
+           <m:mi>f</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>l</m:mi>
+           <m:mo/>
+           <m:mi>m</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   Destructive interference will happen when
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mn>2</m:mn>
+               <m:mo/>
+               <m:mi>d</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+           <m:mo/>
+           <m:msub>
+             <m:mi>n</m:mi>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mi>l</m:mi>
+               <m:mo/>
+               <m:mi>m</m:mi>
+             </m:mrow>
+           </m:msub>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:msub>
+               <m:mi>λ</m:mi>
+               <m:mrow>
+                 <m:mi>a</m:mi>
+                 <m:mo/>
+                 <m:mi>i</m:mi>
+                 <m:mo/>
+                 <m:mi>r</m:mi>
+               </m:mrow>
+             </m:msub>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext> </m:mtext>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo form="infix">=</m:mo>
+           <m:mn>1</m:mn>
+         </m:mrow>
+         <m:mo form="infix">,</m:mo>
+         <m:mn>3</m:mn>
+         <m:mo form="infix">,</m:mo>
+         <m:mrow>
+           <m:mn>5</m:mn>
+           <m:mo/>
+           <m:mi>…</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id14586225">
+   When destructive interference occurs then that value of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>
+   is not reflected. Note that this is a function of both
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>.
+   The next effect is that different colours of light get reflected at different
+   thicknesses of the film. This is why soap films or oil films on water give
+   rainbow effects.
+</para>
+<para id="id14702849">
+   Note I have assumed that
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>3</m:mn>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mrow>
+           <m:mi>f</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>l</m:mi>
+           <m:mo/>
+           <m:mi>m</m:mi>
+         </m:mrow>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mrow>
+           <m:mi>a</m:mi>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>r</m:mi>
+         </m:mrow>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   in the above, where
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>3</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is the material that the film sits upon.
+</para>
+<para id="id35506711">
+   
+</para>
+<para id="id35470290">
+   Consider an interface between two materials with indices of refraction
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   If
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   Then lets examine what happens to the phase of an electromagnetic wave upon
+   reflection.  For a transverse electric field, there is a phase change of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>π</m:mi>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   For the transverse magnetic field (or
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mo form="infix">∥</m:mo>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   ) there is not, if the light ray is close to the normal.  However if
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo form="infix">&gt;</m:mo>
+       <m:msub>
+         <m:mi>n</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   then and the situation is reversed and the transverse electric field does not
+   undergo a phase change and the transverse magnetic field does.  In the example
+   above, their will be no relative phase change between the rays in either case.
+   Either both will change by
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>π</m:mi>
+     </m:mrow>
+   </m:math>
+   or neither will change, depending on the orientation of the E field.
+</para>
+</section>
+</section>
+</content>
+</document>

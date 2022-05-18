@@ -1,0 +1,2419 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Waves</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4b850f08-e0b4-4462-ab5f-b329a676fbf8</md:uuid>
+</metadata>
+  <content>
+<section id="id9199157">
+<title>Waves</title>
+<section id="id16608396">
+<title>The Wave Equation</title>
+<para id="id16606665">
+   In deriving the motion of a string under tension we came up with an equation:
+</para>
+<para id="id16589320">
+   <m:math display="inline">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>y</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mrow>
+         <m:mstyle fontweight="bold" fontstyle="italic">
+           <m:mo form="infix">=</m:mo>
+         </m:mstyle>
+       </m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>y</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   which is known as the wave equation.  We will show that this leads to waves
+   below, but first, let us note the fact that solutions of this equation can be
+   added to give additional solutions.
+</para>
+</section>
+<section id="id5846194">
+<title>Waves Add</title>
+<para id="id3199606">
+   Say you have two waves governed by two equations  Since they are traveling in
+   the same medium,
+   <m:math display="inline">
+     <m:mrow>
+       <m:mtext mathcolor="black">v</m:mtext>
+     </m:mrow>
+   </m:math>
+   is the
+   same<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>add
+   these<m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:msup>
+               <m:mtext mathcolor="black">v</m:mtext>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mfrac>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:msup>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:msub>
+                 <m:mi>f</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:msup>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mn>1</m:mn>
+             <m:msup>
+               <m:mtext mathcolor="black">v</m:mtext>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mfrac>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:msup>
+                 <m:mo form="prefix">∂</m:mo>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:msub>
+                 <m:mi>f</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:msup>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>1</m:mn>
+             </m:msub>
+             <m:mo form="infix">+</m:mo>
+             <m:msub>
+               <m:mi>f</m:mi>
+               <m:mn>2</m:mn>
+             </m:msub>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mfrac>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mrow>
+               <m:mo form="prefix">∂</m:mo>
+               <m:msup>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+           </m:mfrac>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:msub>
+                 <m:mi>f</m:mi>
+                 <m:mn>1</m:mn>
+               </m:msub>
+               <m:mo form="infix">+</m:mo>
+               <m:msub>
+                 <m:mi>f</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msub>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Thus
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo form="infix">+</m:mo>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   is a solution to the wave equation
+</para>
+<para id="id16299406">
+   Lets say we have two functions,
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mn>1</m:mn>
+       </m:msub>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mi>f</m:mi>
+         <m:mn>2</m:mn>
+       </m:msub>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">+</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>.
+   Each of these functions individually satisfy the wave equation. note that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>1</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>f</m:mi>
+             <m:mn>2</m:mn>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>will
+   also satisfy the wave equation. In fact any number of functions of the form
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">+</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   can be added together and will satisfy the wave equation. This is a very
+   profound property of waves. For example it will allow us to describe a very
+   complex wave form, as the summation of simpler wave forms.  The fact that
+   waves add is a consequence of the fact that the wave equation
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mfrac>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>f</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>is
+   linear, that is
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+     </m:mrow>
+   </m:math>
+   and its derivatives only appear to first order. Thus any linear combination of
+   solutions of the equation is itself a solution to the equation.
+</para>
+</section>
+<section id="id16159526">
+<title>General Form</title>
+<para id="id16361481">
+   Any well behaved (ie. no discontinuities, differentiable) function of the form
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>is
+   a solution to the wave equation. Lets define
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msup>
+           <m:mi>f</m:mi>
+           <m:mo form="postfix">′</m:mo>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mi>a</m:mi>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mi>d</m:mi>
+           <m:mo/>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mi>d</m:mi>
+           <m:mo/>
+           <m:mi>a</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msup>
+             <m:mi>f</m:mi>
+             <m:mrow>
+               <m:mo form="postfix">′</m:mo>
+               <m:mo form="postfix">′</m:mo>
+             </m:mrow>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mi>a</m:mi>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mi>d</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mo/>
+             <m:mi>f</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mi>d</m:mi>
+             <m:mo/>
+             <m:msup>
+               <m:mi>a</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Then
+   using the chain rule
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>y</m:mi>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>x</m:mi>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mi>f</m:mi>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>x</m:mi>
+                             <m:mo form="infix">−</m:mo>
+                             <m:mtext mathcolor="black">v</m:mtext>
+                           </m:mrow>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>x</m:mi>
+                             <m:mo form="infix">−</m:mo>
+                             <m:mtext mathcolor="black">v</m:mtext>
+                           </m:mrow>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>f</m:mi>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>x</m:mi>
+                           <m:mo form="infix">−</m:mo>
+                           <m:mtext mathcolor="black">v</m:mtext>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:mi>t</m:mi>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>f</m:mi>
+                     <m:mo form="postfix">′</m:mo>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>x</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mtext mathcolor="black">v</m:mtext>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+               <m:mtext>,</m:mtext>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>y</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>f</m:mi>
+             <m:mrow>
+               <m:mo form="postfix">′</m:mo>
+               <m:mo form="postfix">′</m:mo>
+             </m:mrow>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Also
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>y</m:mi>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mfrac>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:mrow>
+                   <m:mfrac>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mi>f</m:mi>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>x</m:mi>
+                             <m:mo form="infix">−</m:mo>
+                             <m:mtext mathcolor="black">v</m:mtext>
+                           </m:mrow>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                   </m:mfrac>
+                   <m:mo/>
+                   <m:mfrac>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mrow>
+                         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                         <m:mrow>
+                           <m:mrow>
+                             <m:mi>x</m:mi>
+                             <m:mo form="infix">−</m:mo>
+                             <m:mtext mathcolor="black">v</m:mtext>
+                           </m:mrow>
+                           <m:mo/>
+                           <m:mi>t</m:mi>
+                         </m:mrow>
+                         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                       </m:mrow>
+                     </m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">∂</m:mo>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                   </m:mfrac>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">−</m:mo>
+                   <m:mtext mathcolor="black">v</m:mtext>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mi>f</m:mi>
+                   </m:mrow>
+                   <m:mrow>
+                     <m:mo form="prefix">∂</m:mo>
+                     <m:mrow>
+                       <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                       <m:mrow>
+                         <m:mrow>
+                           <m:mi>x</m:mi>
+                           <m:mo form="infix">−</m:mo>
+                           <m:mtext mathcolor="black">v</m:mtext>
+                         </m:mrow>
+                         <m:mo/>
+                         <m:mi>t</m:mi>
+                       </m:mrow>
+                       <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                     </m:mrow>
+                   </m:mrow>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right left">
+               <m:maligngroup/>
+               <m:maligngroup/>
+               <m:mo form="infix">=</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo form="prefix">−</m:mo>
+                   <m:mtext mathcolor="black">v</m:mtext>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:msup>
+                     <m:mi>f</m:mi>
+                     <m:mo form="postfix">′</m:mo>
+                   </m:msup>
+                   <m:mo/>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>x</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mtext mathcolor="black">v</m:mtext>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>y</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo/>
+           <m:mrow>
+             <m:msup>
+               <m:mi>f</m:mi>
+               <m:mrow>
+                 <m:mo form="postfix">′</m:mo>
+                 <m:mo form="postfix">′</m:mo>
+               </m:mrow>
+             </m:msup>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mtext mathcolor="black">v</m:mtext>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>We
+   see that this satisfies the wave equation.
+</para>
+<para id="id16462430">
+   Lets take the example of a Gaussian pulse.
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:msup>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>x</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mtext mathcolor="black">v</m:mtext>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+               <m:mo form="infix">/</m:mo>
+               <m:mn>2</m:mn>
+             </m:mrow>
+             <m:mo/>
+             <m:msup>
+               <m:mi>σ</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+</para>
+<para id="id16574755">
+   Then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">−</m:mo>
+               <m:mn>2</m:mn>
+             </m:mrow>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mtext mathcolor="black">v</m:mtext>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo/>
+             <m:msup>
+               <m:mi>σ</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:msup>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>x</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mtext mathcolor="black">v</m:mtext>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+               <m:mo form="infix">/</m:mo>
+               <m:mn>2</m:mn>
+             </m:mrow>
+             <m:mo/>
+             <m:msup>
+               <m:mi>σ</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+   </m:math>
+</para>
+<para id="id16118720">
+   and
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>f</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:mn>2</m:mn>
+               </m:mrow>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>x</m:mi>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mtext mathcolor="black">v</m:mtext>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo/>
+             <m:msup>
+               <m:mi>σ</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mrow>
+                 <m:mo form="prefix">−</m:mo>
+                 <m:msup>
+                   <m:mrow>
+                     <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                     <m:mrow>
+                       <m:mrow>
+                         <m:mi>x</m:mi>
+                         <m:mo form="infix">−</m:mo>
+                         <m:mtext mathcolor="black">v</m:mtext>
+                       </m:mrow>
+                       <m:mo/>
+                       <m:mi>t</m:mi>
+                     </m:mrow>
+                     <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                   </m:mrow>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+               </m:mrow>
+               <m:mo form="infix">/</m:mo>
+               <m:mn>2</m:mn>
+             </m:mrow>
+             <m:mo/>
+             <m:msup>
+               <m:mi>σ</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mfrac>
+         <m:mrow>
+           <m:msup>
+             <m:mo form="prefix">∂</m:mo>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mrow>
+             <m:mi>f</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>x</m:mi>
+                   <m:mo form="infix">−</m:mo>
+                   <m:mtext mathcolor="black">v</m:mtext>
+                 </m:mrow>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">∂</m:mo>
+           <m:msup>
+             <m:mi>t</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+       </m:mfrac>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mtext mathcolor="black">v</m:mtext>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">∂</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mrow>
+               <m:mi>f</m:mi>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>x</m:mi>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mtext mathcolor="black">v</m:mtext>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">∂</m:mo>
+             <m:msup>
+               <m:mi>x</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   That is it satisfies the wave equation.
+</para>
+</section>
+<section id="id16321693">
+<title>The velocity of a Wave</title>
+<para id="id16321702">
+   
+
+   <figure id="id16321711"><media id="idp341488" alt=""><image src="../../media/Traveling-Wave-small.png" mime-type="image/png"/></media></figure>
+
+</para>
+<para id="id16321721">
+   To find the velocity of a wave, consider the wave:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Then can see that if you increase time and x by
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">Δ</m:mo>
+       <m:mi>t</m:mi>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:mo form="prefix">Δ</m:mo>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   for a point on the traveling wave of constant amplitude
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>f</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>f</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mi>x</m:mi>
+                     <m:mo form="infix">+</m:mo>
+                     <m:mrow>
+                       <m:mo form="prefix">Δ</m:mo>
+                       <m:mi>x</m:mi>
+                     </m:mrow>
+                   </m:mrow>
+                   <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mi>t</m:mi>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mo form="prefix">Δ</m:mo>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+   Which is true if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">Δ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mtext mathcolor="black">v</m:mtext>
+       </m:mrow>
+       <m:mo/>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">Δ</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mn>0</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mtext mathcolor="black">v</m:mtext>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">Δ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">Δ</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   Thus
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">−</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   describes a wave that is moving in the positive
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   direction. Likewise
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>f</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">+</m:mo>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>t</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   describes a wave moving in the negative x direction.
+</para>
+<para id="id16631906">
+   <note id="idp3027376">Lots of students get this backwards so watch out!</note>
+</para>
+<para id="id16631917">
+   Another way to picture this is to consider a one dimensional wave pulse of
+   arbitrary shape, described by
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>y</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mo form="postfix">′</m:mo>
+           </m:msup>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>,
+   fixed to a coordinate system
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>O</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mo form="postfix">′</m:mo>
+           </m:msup>
+           <m:mo form="infix">,</m:mo>
+           <m:msup>
+             <m:mi>y</m:mi>
+             <m:mo form="postfix">′</m:mo>
+           </m:msup>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math> 
+
+   <figure id="id11060081"><media id="idp5159552" alt=""><image src="../../media/IKYTDO01.png" mime-type="image/png"/></media></figure>
+
+
+   Now let the
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>O</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   system, together with the pulse, move to the right along the x-axis at uniform
+   speed v relative to a fixed coordinate system
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>O</m:mi>
+       <m:mo/>
+       <m:mrow>
+         <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+         <m:mrow>
+           <m:mi>x</m:mi>
+           <m:mo form="infix">,</m:mo>
+           <m:mi>y</m:mi>
+         </m:mrow>
+         <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+       </m:mrow>
+     </m:mrow>
+   </m:math>.
+   
+
+   <figure id="id16568679"><media id="idp573712" alt=""><image src="../../media/IKYTFW02.png" mime-type="image/png"/></media></figure>
+
+As
+   it moves, the pulse is assumed to maintain its shape. Any point P on the pulse
+   can be described by either of two coordinates
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+     </m:mrow>
+   </m:math>
+   or
+   <m:math display="inline">
+     <m:mrow>
+       <m:msup>
+         <m:mi>x</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+     </m:mrow>
+   </m:math>,
+   where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:msup>
+           <m:mi>x</m:mi>
+           <m:mo form="postfix">′</m:mo>
+         </m:msup>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>x</m:mi>
+           <m:mo form="infix">−</m:mo>
+           <m:mtext mathcolor="black">v</m:mtext>
+         </m:mrow>
+       </m:mrow>
+       <m:mo/>
+       <m:mi>t</m:mi>
+     </m:mrow>
+   </m:math>.
+   The
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>y</m:mi>
+     </m:mrow>
+   </m:math>
+   coordinate is identical in either system. In the stationary coordinate
+   system's frame of reference, the moving pulse has the mathematical form
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mi>y</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:msup>
+             <m:mi>x</m:mi>
+             <m:mo form="postfix">′</m:mo>
+           </m:msup>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>If
+   the pulse moves to the left, the sign of v must be reversed, so that we may
+   write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>f</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">±</m:mo>
+               <m:mtext mathcolor="black">v</m:mtext>
+             </m:mrow>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>as
+   the general form of a traveling wave. Notice that we have assumed
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mi>x</m:mi>
+         <m:mo form="postfix">′</m:mo>
+       </m:msup>
+     </m:mrow>
+   </m:math>
+   at
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>t</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>.
+
+   <figure id="id16674464"><media id="idm430880" alt=""><image src="../../media/wave.gif" mime-type="image/gif"/></media></figure>
+
+
+</para>
+<para id="id16674479">
+  <note id="idm8689408"> Waves carry momentum, energy (possibly angular momentum)
+   but not matter</note>
+</para>
+</section>
+<section id="id16674492">
+<title>Wavelength, Wavenumber etc.</title>
+<para id="id16485896">
+   We will often use a sinusoidal form for the wave. However we can't use
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>x</m:mi>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mtext mathcolor="black">v</m:mtext>
+               </m:mrow>
+               <m:mo/>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>since
+   the part in brackets has dimensions of length. Instead we use
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                 </m:mrow>
+                 <m:mi>λ</m:mi>
+               </m:mfrac>
+               <m:mo/>
+               <m:mrow>
+                 <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mi>x</m:mi>
+                     <m:mo form="infix">−</m:mo>
+                     <m:mtext mathcolor="black">v</m:mtext>
+                   </m:mrow>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+               </m:mrow>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Notice
+   that
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">=</m:mo>
+               <m:mn>0</m:mn>
+             </m:mrow>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">=</m:mo>
+               <m:mi>λ</m:mi>
+             </m:mrow>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>which
+   gives us the definition of the wavelength
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>λ</m:mi>
+     </m:mrow>
+   </m:math>.
+</para>
+<para id="id16261819">
+   Also note that the frequency is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>ν</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:mtext mathcolor="black">v</m:mtext>
+           <m:mi>λ</m:mi>
+         </m:mfrac>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>The
+   angular frequency is defined to be
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>ω</m:mi>
+         <m:mo form="infix">≡</m:mo>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>π</m:mi>
+           <m:mo/>
+           <m:mi>ν</m:mi>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mrow>
+               <m:mn>2</m:mn>
+               <m:mo/>
+               <m:mi>π</m:mi>
+             </m:mrow>
+             <m:mtext mathcolor="black">v</m:mtext>
+           </m:mrow>
+           <m:mi>λ</m:mi>
+         </m:mfrac>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Finally
+   the wave number is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>k</m:mi>
+         <m:mo form="infix">≡</m:mo>
+         <m:mfrac>
+           <m:mrow>
+             <m:mn>2</m:mn>
+             <m:mo/>
+             <m:mi>π</m:mi>
+           </m:mrow>
+           <m:mi>λ</m:mi>
+         </m:mfrac>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>So
+   we could have written our wave as
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:mi>k</m:mi>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:mi>ω</m:mi>
+                 <m:mo/>
+                 <m:mi>t</m:mi>
+               </m:mrow>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Note
+   that some books say
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>k</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>λ</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+<section id="id16323650">
+<title>Normal Modes on a String as an Example of Wave Addition</title>
+<para id="id16323660">
+   Lets go back to our solution for normal modes on a string:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>y</m:mi>
+           <m:mi>n</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>A</m:mi>
+           <m:mi>n</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mn>2</m:mn>
+                 <m:mo/>
+                 <m:mi>π</m:mi>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:msub>
+                 <m:mi>λ</m:mi>
+                 <m:mi>n</m:mi>
+               </m:msub>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:msub>
+               <m:mi>ω</m:mi>
+               <m:mi>n</m:mi>
+             </m:msub>
+             <m:mo/>
+             <m:mi>t</m:mi>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:msub>
+             <m:mi>y</m:mi>
+             <m:mi>n</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mi>x</m:mi>
+               <m:mo form="infix">,</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:msub>
+             <m:mi>A</m:mi>
+             <m:mi>n</m:mi>
+           </m:msub>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                   <m:mo/>
+                   <m:mi>x</m:mi>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>λ</m:mi>
+                   <m:mi>n</m:mi>
+                 </m:msub>
+               </m:mfrac>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">cos</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mn>2</m:mn>
+                   <m:mo/>
+                   <m:mi>π</m:mi>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>λ</m:mi>
+                   <m:mi>n</m:mi>
+                 </m:msub>
+               </m:mfrac>
+               <m:mtext mathcolor="black">v</m:mtext>
+               <m:mi>t</m:mi>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Now
+   lets do the following: make use of
+   <m:math display="inline">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mi>θ</m:mi>
+               <m:mo form="infix">+</m:mo>
+               <m:mi>φ</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+             <m:mrow>
+               <m:mi>θ</m:mi>
+               <m:mo form="infix">−</m:mo>
+               <m:mi>φ</m:mi>
+             </m:mrow>
+             <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mi>θ</m:mi>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mi>φ</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Also lets just take the first normal mode and drop the n's Finally,
+   define
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>A</m:mi>
+       <m:mo form="infix">≡</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>A</m:mi>
+           <m:mn>1</m:mn>
+         </m:msub>
+         <m:mo form="infix">/</m:mo>
+         <m:mn>2</m:mn>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   Then
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mn>2</m:mn>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">sin</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mn>2</m:mn>
+                 <m:mo/>
+                 <m:mi>π</m:mi>
+                 <m:mo/>
+                 <m:mi>x</m:mi>
+               </m:mrow>
+               <m:mi>λ</m:mi>
+             </m:mfrac>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mi mathcolor="gray">cos</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+             <m:mfrac>
+               <m:mrow>
+                 <m:mn>2</m:mn>
+                 <m:mo/>
+                 <m:mi>π</m:mi>
+               </m:mrow>
+               <m:mi>λ</m:mi>
+             </m:mfrac>
+             <m:mtext mathcolor="black">v</m:mtext>
+             <m:mi>t</m:mi>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>becomes
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>y</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mi>x</m:mi>
+             <m:mo form="infix">,</m:mo>
+             <m:mi>t</m:mi>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>π</m:mi>
+                   </m:mrow>
+                   <m:mi>λ</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>x</m:mi>
+                       <m:mo form="infix">−</m:mo>
+                       <m:mtext mathcolor="black">v</m:mtext>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>A</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi mathcolor="gray">sin</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+               <m:mrow>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mn>2</m:mn>
+                     <m:mo/>
+                     <m:mi>π</m:mi>
+                   </m:mrow>
+                   <m:mi>λ</m:mi>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">(</m:mo>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mi>x</m:mi>
+                       <m:mo form="infix">+</m:mo>
+                       <m:mtext mathcolor="black">v</m:mtext>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>t</m:mi>
+                   </m:mrow>
+                   <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">)</m:mo>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>These
+   are two waves of equal amplitude and speed traveling in opposite directions.
+   We can plot what happens when we do this.  The following animation was made
+   with Mathematica using the command
+</para>
+<para id="id16571884">
+   
+
+   <figure id="id16571892"><media id="idp1850240" alt=""><image src="../../media/equation.gif" mime-type="image/gif"/></media></figure>
+
+
+   
+
+   <figure id="id16571912"><media id="idp1851600" alt=""><image src="../../media/normalModes.gif" mime-type="image/gif"/></media></figure>
+
+
+</para>
+</section>
+</section>
+</content>
+</document>

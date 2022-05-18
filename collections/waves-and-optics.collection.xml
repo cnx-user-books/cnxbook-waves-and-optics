@@ -1,0 +1,122 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10279</md:content-id>
+    <md:title>Waves and Optics</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>75308055-281a-4989-b660-8dca9da92b2f</md:uuid>
+<md:slug>waves-and-optics</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Oscillations in Mechanical Systems</md:title>
+      <col:content>
+        <col:module document="m12774"/>
+        <col:module document="m12778"/>
+        <col:module document="m12779"/>
+        <col:module document="m12780"/>
+        <col:module document="m12781"/>
+        <col:module document="m12783"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m12784"/>
+    <col:subcollection>
+      <md:title>Mechanical Waves</md:title>
+      <col:content>
+        <col:module document="m12785"/>
+        <col:module document="m12787"/>
+        <col:module document="m12786"/>
+        <col:module document="m12793"/>
+        <col:module document="m12794"/>
+        <col:module document="m12795"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Div, Grad, Curl</md:title>
+      <col:content>
+        <col:module document="m12854"/>
+        <col:module document="m12855"/>
+        <col:module document="m12856"/>
+        <col:module document="m12857"/>
+        <col:module document="m12858"/>
+        <col:module document="m12866"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Electromagnetism Review</md:title>
+      <col:content>
+        <col:module document="m12867"/>
+        <col:module document="m12869"/>
+        <col:module document="m12883"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Electromagnetic Waves</md:title>
+      <col:content>
+        <col:module document="m12884"/>
+        <col:module document="m12885"/>
+        <col:module document="m12886"/>
+        <col:module document="m12887"/>
+        <col:module document="m12888"/>
+        <col:module document="m12889"/>
+        <col:module document="m12890"/>
+        <col:module document="m12891"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Optics</md:title>
+      <col:content>
+        <col:module document="m12892"/>
+        <col:module document="m12895"/>
+        <col:module document="m12901"/>
+        <col:module document="m12903"/>
+        <col:module document="m12904"/>
+        <col:module document="m12905"/>
+        <col:module document="m13075"/>
+        <col:module document="m13076"/>
+        <col:module document="m12906"/>
+        <col:module document="m12908"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Geometric Optics</md:title>
+      <col:content>
+        <col:module document="m13083"/>
+        <col:module document="m13084"/>
+        <col:module document="m13087"/>
+        <col:module document="m13088"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Interference</md:title>
+      <col:content>
+        <col:module document="m12909"/>
+        <col:module document="m12910"/>
+        <col:module document="m12911"/>
+        <col:module document="m12912"/>
+        <col:module document="m12914"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Diffraction</md:title>
+      <col:content>
+        <col:module document="m12915"/>
+        <col:module document="m12916"/>
+        <col:module document="m12917"/>
+        <col:module document="m13096"/>
+        <col:module document="m13100"/>
+        <col:module document="m13097"/>
+        <col:module document="m13111"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Fourier Optics</md:title>
+      <col:content>
+        <col:module document="m13101"/>
+        <col:module document="m13102"/>
+        <col:module document="m13106"/>
+        <col:module document="m13107"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

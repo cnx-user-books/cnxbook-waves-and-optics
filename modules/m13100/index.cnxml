@@ -1,0 +1,615 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Babinet's Principle</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f3d2f49d-28bf-4e6e-b963-3bbb27a7d5fe</md:uuid>
+</metadata>
+  <content>
+<section id="id36496427">
+<title>Babinet's Principle</title>
+<para id="id2614247">
+   Say you have a slit with light passing through it. You will get a diffraction
+   pattern, lets call it
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>s</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   If you cover the slit with a piece of material that fits just inside the slit,
+   then there is no
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field in the Fraunhofer limit. The is means that the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field of the blocker, lets call it
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>v</m:mi>
+       <m:mo/>
+       <m:mi>e</m:mi>
+       <m:mo/>
+       <m:mi>c</m:mi>
+       <m:mo/>
+       <m:msub>
+         <m:mi>E</m:mi>
+         <m:mi>b</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>,
+   must exactly cancel
+   <m:math display="inline">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>s</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>.
+   The only way this can happen is if
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mover accent="true">
+           <m:mi>E</m:mi>
+           <m:mo accent="true" form="postfix">⃗</m:mo>
+         </m:mover>
+         <m:mi>b</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mo form="prefix">−</m:mo>
+         <m:msub>
+           <m:mover accent="true">
+             <m:mi>E</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mi>s</m:mi>
+         </m:msub>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   . Now if you take the slit away the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field of the blocker must still remain and then irradiance must be
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>I</m:mi>
+         <m:mi>b</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:msup>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:msub>
+               <m:mi>E</m:mi>
+               <m:mi>s</m:mi>
+             </m:msub>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:msub>
+         <m:mi>I</m:mi>
+         <m:mi>s</m:mi>
+       </m:msub>
+     </m:mrow>
+   </m:math>
+   The interference pattern looks the same. You can verify this yourself by
+   taking a strand of your hair and a laser pointer. Shine the laser pointer at a
+   wall and then put a strand of your hair in front of the light beam. The
+   resulting interference pattern is the exact same as one would obtain from a
+   slit with the same width as your hair.
+</para>
+<para id="id25972907">
+   We can use Babinet's Principle to solve complex problems. For example, say you
+   have square aperture with sides of length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>L</m:mi>
+     </m:mrow>
+   </m:math>.
+   The the diffraction pattern for light passing through it is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mover accent="true">
+             <m:mi>ɛ</m:mi>
+             <m:mo accent="true" form="postfix">⃗</m:mo>
+           </m:mover>
+           <m:mi>A</m:mi>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>r</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>L</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mfrac>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>β</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+             </m:mrow>
+             <m:msub>
+               <m:mi>β</m:mi>
+               <m:mi>L</m:mi>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mfrac>
+             <m:mrow>
+               <m:mi mathcolor="gray">sin</m:mi>
+               <m:mo/>
+               <m:msub>
+                 <m:mi>α</m:mi>
+                 <m:mi>L</m:mi>
+               </m:msub>
+             </m:mrow>
+             <m:msub>
+               <m:mi>α</m:mi>
+               <m:mi>L</m:mi>
+             </m:msub>
+           </m:mfrac>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   (assuming the aperture lies in the
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>y</m:mi>
+       <m:mo form="infix">−</m:mo>
+       <m:mi>z</m:mi>
+     </m:mrow>
+   </m:math>
+   plane)
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>β</m:mi>
+         <m:mi>L</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:mi>L</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi>Y</m:mi>
+           <m:mo form="infix">/</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>R</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>α</m:mi>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>L</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>Z</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>R</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>Now
+   put an opaque square of length
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>d</m:mi>
+     </m:mrow>
+   </m:math>
+   in the middle of the aperture. Now the resulting
+   <m:math display="inline">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+     </m:mrow>
+   </m:math>
+   field is
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mover accent="true">
+         <m:mi>E</m:mi>
+         <m:mo accent="true" form="postfix">⃗</m:mo>
+       </m:mover>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mfrac>
+           <m:msub>
+             <m:mover accent="true">
+               <m:mi>ɛ</m:mi>
+               <m:mo accent="true" form="postfix">⃗</m:mo>
+             </m:mover>
+             <m:mi>A</m:mi>
+           </m:msub>
+           <m:mi>R</m:mi>
+         </m:mfrac>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>k</m:mi>
+                   <m:mo/>
+                   <m:mi>r</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">−</m:mo>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:msup>
+                 <m:mi>L</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo/>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>β</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>β</m:mi>
+                   <m:mi>L</m:mi>
+                 </m:msub>
+               </m:mfrac>
+               <m:mo/>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>α</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>α</m:mi>
+                   <m:mi>L</m:mi>
+                 </m:msub>
+               </m:mfrac>
+             </m:mrow>
+             <m:mo form="infix">−</m:mo>
+             <m:mrow>
+               <m:msup>
+                 <m:mi>d</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mo/>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>β</m:mi>
+                     <m:mi>d</m:mi>
+                   </m:msub>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>β</m:mi>
+                   <m:mi>d</m:mi>
+                 </m:msub>
+               </m:mfrac>
+               <m:mo/>
+               <m:mfrac>
+                 <m:mrow>
+                   <m:mi mathcolor="gray">sin</m:mi>
+                   <m:mo/>
+                   <m:msub>
+                     <m:mi>α</m:mi>
+                     <m:mi>d</m:mi>
+                   </m:msub>
+                 </m:mrow>
+                 <m:msub>
+                   <m:mi>α</m:mi>
+                   <m:mi>d</m:mi>
+                 </m:msub>
+               </m:mfrac>
+             </m:mrow>
+           </m:mrow>
+           <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>I</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msub>
+           <m:mi>I</m:mi>
+           <m:mn>0</m:mn>
+         </m:msub>
+         <m:mo/>
+         <m:msup>
+           <m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="prefix">[</m:mo>
+             <m:mrow>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>L</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>β</m:mi>
+                       <m:mi>L</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                   <m:msub>
+                     <m:mi>β</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>α</m:mi>
+                       <m:mi>L</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                   <m:msub>
+                     <m:mi>α</m:mi>
+                     <m:mi>L</m:mi>
+                   </m:msub>
+                 </m:mfrac>
+               </m:mrow>
+               <m:mo form="infix">−</m:mo>
+               <m:mrow>
+                 <m:msup>
+                   <m:mi>d</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:msup>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>β</m:mi>
+                       <m:mi>d</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                   <m:msub>
+                     <m:mi>β</m:mi>
+                     <m:mi>d</m:mi>
+                   </m:msub>
+                 </m:mfrac>
+                 <m:mo/>
+                 <m:mfrac>
+                   <m:mrow>
+                     <m:mi mathcolor="gray">sin</m:mi>
+                     <m:mo/>
+                     <m:msub>
+                       <m:mi>α</m:mi>
+                       <m:mi>d</m:mi>
+                     </m:msub>
+                   </m:mrow>
+                   <m:msub>
+                     <m:mi>α</m:mi>
+                     <m:mi>d</m:mi>
+                   </m:msub>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mrow>
+             <m:mo symmetric="true" stretchy="true" fence="true" form="postfix">]</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>β</m:mi>
+         <m:mi>L</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:mi>L</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi>Y</m:mi>
+           <m:mo form="infix">/</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>R</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>α</m:mi>
+           <m:mi>L</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>L</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>Z</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>R</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:msub>
+         <m:mi>β</m:mi>
+         <m:mi>d</m:mi>
+       </m:msub>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>k</m:mi>
+         <m:mo/>
+         <m:mi>d</m:mi>
+         <m:mo/>
+         <m:mrow>
+           <m:mi>Y</m:mi>
+           <m:mo form="infix">/</m:mo>
+           <m:mn>2</m:mn>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>R</m:mi>
+       </m:mrow>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:msub>
+           <m:mi>α</m:mi>
+           <m:mi>d</m:mi>
+         </m:msub>
+         <m:mo form="infix">=</m:mo>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>d</m:mi>
+           <m:mo/>
+           <m:mrow>
+             <m:mi>Z</m:mi>
+             <m:mo form="infix">/</m:mo>
+             <m:mn>2</m:mn>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>R</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mtext>.</m:mtext>
+     </m:mrow>
+   </m:math>
+</para>
+</section>
+</content>
+</document>

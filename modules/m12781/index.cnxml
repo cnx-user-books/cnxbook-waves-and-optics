@@ -1,0 +1,702 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Module 5.xhtml</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>dde6ffe4-33f3-43d8-85c4-0213afd74e09</md:uuid>
+</metadata>
+  <content>
+<section id="id4907097">
+<title>Damped Oscillations</title>
+<para id="id4907106">
+   Consider a simple harmonic oscillator that has friction, then the equations of
+   motion must be changed with the addition of a friction term. So we write
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mi>m</m:mi>
+         <m:mo/>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>x</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">−</m:mo>
+             <m:mi>k</m:mi>
+           </m:mrow>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mi>b</m:mi>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>b</m:mi>
+       <m:mo/>
+       <m:mfrac>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>x</m:mi>
+         </m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">ⅆ</m:mo>
+           <m:mi>t</m:mi>
+         </m:mrow>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   is the friction term. Rearranging we obtain:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mi>m</m:mi>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:msup>
+                 <m:mo form="prefix">ⅆ</m:mo>
+                 <m:mn>2</m:mn>
+               </m:msup>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:msup>
+                 <m:mi>t</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>b</m:mi>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>k</m:mi>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mfrac>
+           <m:mrow>
+             <m:msup>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mn>2</m:mn>
+             </m:msup>
+             <m:mi>x</m:mi>
+           </m:mrow>
+           <m:mrow>
+             <m:mo form="prefix">ⅆ</m:mo>
+             <m:msup>
+               <m:mi>t</m:mi>
+               <m:mn>2</m:mn>
+             </m:msup>
+           </m:mrow>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>γ</m:mi>
+           <m:mo/>
+           <m:mfrac>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>x</m:mi>
+             </m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">ⅆ</m:mo>
+               <m:mi>t</m:mi>
+             </m:mrow>
+           </m:mfrac>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:msubsup>
+             <m:mi>ω</m:mi>
+             <m:mn>0</m:mn>
+             <m:mn>2</m:mn>
+           </m:msubsup>
+           <m:mo/>
+           <m:mi>x</m:mi>
+         </m:mrow>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>Where
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>γ</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>b</m:mi>
+         <m:mi>m</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   and
+   <m:math display="inline">
+     <m:mrow>
+       <m:msubsup>
+         <m:mi>ω</m:mi>
+         <m:mn>0</m:mn>
+         <m:mn>2</m:mn>
+       </m:msubsup>
+       <m:mo form="infix">=</m:mo>
+       <m:mfrac>
+         <m:mi>k</m:mi>
+         <m:mi>m</m:mi>
+       </m:mfrac>
+     </m:mrow>
+   </m:math>
+   Assume a solution of form
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>p</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>α</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>substitute
+   into equation and get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">−</m:mo>
+               <m:msup>
+                 <m:mi>p</m:mi>
+                 <m:mn>2</m:mn>
+               </m:msup>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:mrow>
+               <m:mi>i</m:mi>
+               <m:mo/>
+               <m:mi>p</m:mi>
+               <m:mo/>
+               <m:mi>γ</m:mi>
+             </m:mrow>
+             <m:mo form="infix">+</m:mo>
+             <m:msubsup>
+               <m:mi>ω</m:mi>
+               <m:mn>0</m:mn>
+               <m:mn>2</m:mn>
+             </m:msubsup>
+           </m:mrow>
+           <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+         </m:mrow>
+         <m:mo/>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>p</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>α</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>so
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>p</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>p</m:mi>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math><m:math display="inline">
+     <m:mrow>
+       <m:mi>p</m:mi>
+     </m:mrow>
+   </m:math>
+   must have real and imaginary parts, so rewrite:
+   <m:math display="inline">
+     <m:mrow>
+       <m:mi>p</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>ω</m:mi>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>s</m:mi>
+         </m:mrow>
+       </m:mrow>
+     </m:mrow>
+   </m:math>
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>p</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msup>
+           <m:mi>ω</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>ω</m:mi>
+           <m:mo/>
+           <m:mi>s</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:msup>
+           <m:mi>s</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>So
+   the equation
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>p</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>p</m:mi>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>becomes
+   upon substitution:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mn>2</m:mn>
+           <m:mo/>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>ω</m:mi>
+           <m:mo/>
+           <m:mi>s</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msup>
+           <m:mi>s</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo form="infix">+</m:mo>
+         <m:mrow>
+           <m:mi>i</m:mi>
+           <m:mo/>
+           <m:mi>ω</m:mi>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>This
+   equation implies that the real and imaginary parts are each zero.Separate
+   the real and imaginary partsImaginary parts give:
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mstyle displaystyle="true">
+         <m:mtable>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mrow>
+                     <m:mrow>
+                       <m:mo form="prefix">−</m:mo>
+                       <m:mn>2</m:mn>
+                     </m:mrow>
+                     <m:mo/>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>s</m:mi>
+                   </m:mrow>
+                   <m:mo form="infix">+</m:mo>
+                   <m:mrow>
+                     <m:mi>ω</m:mi>
+                     <m:mo/>
+                     <m:mi>γ</m:mi>
+                   </m:mrow>
+                 </m:mrow>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mn>0</m:mn>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+           <m:mtr>
+             <m:mtd groupalign="right center left">
+               <m:maligngroup/>
+               <m:mrow>
+                 <m:mi>s</m:mi>
+                 <m:maligngroup/>
+                 <m:mo form="infix">=</m:mo>
+                 <m:maligngroup/>
+                 <m:mfrac>
+                   <m:mi>γ</m:mi>
+                   <m:mn>2</m:mn>
+                 </m:mfrac>
+               </m:mrow>
+             </m:mtd>
+           </m:mtr>
+         </m:mtable>
+       </m:mstyle>
+     </m:mrow>
+   </m:math>From
+   Real parts get
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msup>
+           <m:mi>s</m:mi>
+           <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mi>s</m:mi>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>or
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>γ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mn>4</m:mn>
+         </m:mfrac>
+         <m:mo form="infix">−</m:mo>
+         <m:mrow>
+           <m:mfrac>
+             <m:mi>γ</m:mi>
+             <m:mn>2</m:mn>
+           </m:mfrac>
+           <m:mo/>
+           <m:mi>γ</m:mi>
+         </m:mrow>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math><m:math mode="display" display="block">
+     <m:mrow>
+       <m:mrow>
+         <m:mrow>
+           <m:mo form="prefix">−</m:mo>
+           <m:msup>
+             <m:mi>ω</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+         </m:mrow>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>γ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mn>4</m:mn>
+         </m:mfrac>
+         <m:mo form="infix">+</m:mo>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+       </m:mrow>
+       <m:mo form="infix">=</m:mo>
+       <m:mn>0</m:mn>
+     </m:mrow>
+   </m:math>Which
+   rearranges to
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:msup>
+         <m:mi>ω</m:mi>
+         <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>γ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mn>4</m:mn>
+         </m:mfrac>
+       </m:mrow>
+     </m:mrow>
+   </m:math>Thus
+   the solution becomes
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>x</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:mrow>
+         <m:mi>A</m:mi>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mrow>
+               <m:mo form="prefix">−</m:mo>
+               <m:mi>γ</m:mi>
+             </m:mrow>
+             <m:mo/>
+             <m:mrow>
+               <m:mi>t</m:mi>
+               <m:mo form="infix">/</m:mo>
+               <m:mn>2</m:mn>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+         <m:mo/>
+         <m:msup>
+           <m:mi>e</m:mi>
+           <m:mrow>
+             <m:mi>i</m:mi>
+             <m:mo/>
+             <m:mrow>
+               <m:mo stretchy="false" fence="true" form="prefix">(</m:mo>
+               <m:mrow>
+                 <m:mrow>
+                   <m:mi>ω</m:mi>
+                   <m:mo/>
+                   <m:mi>t</m:mi>
+                 </m:mrow>
+                 <m:mo form="infix">+</m:mo>
+                 <m:mi>α</m:mi>
+               </m:mrow>
+               <m:mo stretchy="false" fence="true" form="postfix">)</m:mo>
+             </m:mrow>
+           </m:mrow>
+         </m:msup>
+       </m:mrow>
+     </m:mrow>
+   </m:math>where
+   <m:math mode="display" display="block">
+     <m:mrow>
+       <m:mi>ω</m:mi>
+       <m:mo form="infix">=</m:mo>
+       <m:msqrt>
+         <m:msubsup>
+           <m:mi>ω</m:mi>
+           <m:mn>0</m:mn>
+           <m:mn>2</m:mn>
+         </m:msubsup>
+         <m:mo form="infix">−</m:mo>
+         <m:mfrac>
+           <m:msup>
+             <m:mi>γ</m:mi>
+             <m:mn>2</m:mn>
+           </m:msup>
+           <m:mn>4</m:mn>
+         </m:mfrac>
+       </m:msqrt>
+     </m:mrow>
+   </m:math>
+   Note that this has assumed a frictional damping force. For a more complicated
+   damping force, the result would be different.
+</para>
+</section>
+</content>
+</document>
