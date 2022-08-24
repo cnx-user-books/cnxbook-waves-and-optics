@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Paul Padley">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10279</md:content-id>
     <md:title>Waves and Optics</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
     <md:uuid>75308055-281a-4989-b660-8dca9da92b2f</md:uuid>
-<md:slug>waves-and-optics</md:slug>
-</metadata>
+    <md:slug>waves-and-optics</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Oscillations in Mechanical Systems</md:title>
