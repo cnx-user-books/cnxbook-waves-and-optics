@@ -751,8 +751,7 @@ The
        </m:mrow>
      </m:mrow>
    </m:math>
-   and write <m:math mode="display" display="block">
-   </m:math> So we
+   and write  So we
    have<m:math mode="display" display="block">
      <m:mrow>
        <m:mstyle displaystyle="true">
@@ -1095,8 +1094,7 @@ The
      </m:mrow>
    </m:math>
    from the first source and a distance
-   <m:math display="inline">
-   </m:math> from the second source.  In that
+    from the second source.  In that
    case we find that the intensity is proportional to
    <m:math display="inline">
      <m:mrow>

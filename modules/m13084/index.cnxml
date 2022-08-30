@@ -319,13 +319,10 @@ Consider
          </m:mfrac>
        </m:mrow>
      </m:mrow>
-   </m:math><m:math mode="display" display="block">
    </m:math>
 </para>
 <para id="id29957792">
-   <m:math mode="display" display="block">
-   </m:math><m:math mode="display" display="block">
-   </m:math>Now
+   Now
    we take the thin lens case,that is
    <m:math display="inline">
      <m:mrow>
